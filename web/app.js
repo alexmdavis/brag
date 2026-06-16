@@ -4,8 +4,13 @@ const VIEWS = [
   { key: "per90", label: "Per-90" },
   { key: "bestXI", label: "Best XI" },
 ];
+const MODES = [
+  { key: "clubs", label: "Clubs" },
+  { key: "players", label: "Players" },
+];
 
 let DATA = null;
+let currentMode = "clubs";
 let currentLeague = "all";
 let currentView = "total";
 
@@ -65,9 +70,16 @@ function leagueLogoMap() {
   return map;
 }
 
+function breakdownText(p) {
+  return p.breakdown
+    .map(b => `${b.label} ${b.points > 0 ? "+" : ""}${b.points}`)
+    .join(", ");
+}
+
 async function load() {
   const res = await fetch("standings.json", { cache: "no-store" });
   DATA = await res.json();
+  buildModeTabs();
   buildLeagueTabs();
   buildViewTabs();
   setupExplainer();
@@ -81,6 +93,15 @@ function leagues() {
   const map = new Map();
   DATA.clubs.forEach(c => map.set(c.league, c.leagueName));
   return [["all", "All leagues"], ...map.entries()];
+}
+
+function buildModeTabs() {
+  const wrap = document.getElementById("modes");
+  wrap.replaceChildren(...MODES.map(m => {
+    const b = el("button", { text: m.label, className: m.key === currentMode ? "active" : "" });
+    b.onclick = () => { currentMode = m.key; buildModeTabs(); render(); };
+    return b;
+  }));
 }
 
 function buildLeagueTabs() {
@@ -106,9 +127,58 @@ function buildViewTabs() {
   }));
 }
 
+function setHeader(cols) {
+  const tr = el("tr", { children: cols.map(c => el("th", { text: c.label, className: c.cls || "" })) });
+  document.getElementById("thead").replaceChildren(tr);
+}
+
+function clubCellNode(club) {
+  return el("td", { className: "club-cell", children: [
+    logoImg(club.clubLogo, "crest", club.club),
+    el("span", { text: club.club }),
+  ]});
+}
+
+function leagueCellNode(league, leagueName, logos) {
+  return el("td", { className: "league-cell", children: [
+    logoImg(logos.get(league), "league-logo", leagueName),
+    el("span", { text: leagueName }),
+  ]});
+}
+
+function playerCellNode(p) {
+  return el("td", { className: "club-cell", children: [
+    avatar(p),
+    el("span", { children: [
+      el("span", { className: "pname", text: p.name }),
+      el("span", { className: "meta", children: [
+        logoImg(p.nationFlag, "flag", p.nation),
+        el("span", { text: `${p.position}, ${p.nation}` }),
+      ]}),
+    ]}),
+  ]});
+}
+
+// A collapsible detail row holding arbitrary content.
+function detailRow(contentNode) {
+  const detail = el("tr", { className: "detail", children: [
+    el("td", { attrs: { colspan: "5" }, children: [contentNode] }),
+  ]});
+  detail.style.display = "none";
+  return detail;
+}
+
 function render() {
-  document.getElementById("score-head").textContent =
-    VIEWS.find(v => v.key === currentView).label;
+  document.getElementById("views").style.display = currentMode === "players" ? "none" : "";
+  if (currentMode === "players") renderPlayers();
+  else renderClubs();
+}
+
+function renderClubs() {
+  setHeader([
+    { label: "#" }, { label: "Club" }, { label: "League" }, { label: "Players" },
+    { label: VIEWS.find(v => v.key === currentView).label, cls: "num" },
+  ]);
   const rows = document.getElementById("rows");
   const logos = leagueLogoMap();
 
@@ -119,25 +189,14 @@ function render() {
 
   const nodes = [];
   clubs.forEach((c, i) => {
-    const clubCell = el("td", { className: "club-cell", children: [
-      logoImg(c.clubLogo, "crest", c.club),
-      el("span", { text: c.club }),
-    ]});
-    const leagueCell = el("td", { className: "league-cell", children: [
-      logoImg(logos.get(c.league), "league-logo", c.leagueName),
-      el("span", { text: c.leagueName }),
-    ]});
     const tr = el("tr", { className: "club-row", children: [
       el("td", { text: String(i + 1) }),
-      clubCell,
-      leagueCell,
+      clubCellNode(c),
+      leagueCellNode(c.league, c.leagueName, logos),
       el("td", { text: String(c.playerCount) }),
       el("td", { className: "score", text: c.scores[currentView].toFixed(1) }),
     ]});
-    const detail = el("tr", { className: "detail", children: [
-      el("td", { attrs: { colspan: "5" }, children: [playersNode(c)] }),
-    ]});
-    detail.style.display = "none";
+    const detail = detailRow(playersNode(c));
     tr.onclick = () => {
       detail.style.display = detail.style.display === "none" ? "" : "none";
     };
@@ -149,27 +208,59 @@ function render() {
 function playersNode(club) {
   const wrap = el("div", { className: "players" });
   club.players.forEach(p => {
-    const parts = p.breakdown
-      .map(b => `${b.label} ${b.points > 0 ? "+" : ""}${b.points}`)
-      .join(", ");
-    const metaChildren = [
-      logoImg(p.nationFlag, "flag", p.nation),
-      el("span", { text: `${p.position}, ${p.nation}, ${p.minutes}'` }),
-    ];
     const left = el("span", { className: "player-left", children: [
       avatar(p),
       el("span", { children: [
         el("span", { className: "pname", text: p.name }),
-        el("span", { className: "meta", children: metaChildren }),
+        el("span", { className: "meta", children: [
+          logoImg(p.nationFlag, "flag", p.nation),
+          el("span", { text: `${p.position}, ${p.nation}, ${p.minutes}'` }),
+        ]}),
       ]}),
     ]});
     const right = el("span", { children: [
       document.createTextNode(p.rating.toFixed(1) + " "),
-      el("span", { className: "breakdown", text: parts }),
+      el("span", { className: "breakdown", text: breakdownText(p) }),
     ]});
     wrap.appendChild(el("div", { className: "player", children: [left, right] }));
   });
   return wrap;
+}
+
+function renderPlayers() {
+  setHeader([
+    { label: "#" }, { label: "Player" }, { label: "Club" }, { label: "League" },
+    { label: "Rating", cls: "num" },
+  ]);
+  const rows = document.getElementById("rows");
+  const logos = leagueLogoMap();
+
+  const all = [];
+  DATA.clubs.forEach(c => c.players.forEach(p => all.push(Object.assign({}, p, {
+    club: c.club, clubLogo: c.clubLogo, league: c.league, leagueName: c.leagueName,
+  }))));
+  const players = all
+    .filter(p => currentLeague === "all" || p.league === currentLeague)
+    .sort((a, b) => b.rating - a.rating);
+
+  const nodes = [];
+  players.forEach((p, i) => {
+    const tr = el("tr", { className: "club-row", children: [
+      el("td", { text: String(i + 1) }),
+      playerCellNode(p),
+      clubCellNode(p),
+      leagueCellNode(p.league, p.leagueName, logos),
+      el("td", { className: "score", text: p.rating.toFixed(1) }),
+    ]});
+    const detail = detailRow(el("div", { className: "players", children: [
+      el("div", { className: "breakdown-row", text: breakdownText(p) }),
+    ]}));
+    tr.onclick = () => {
+      detail.style.display = detail.style.display === "none" ? "" : "none";
+    };
+    nodes.push(tr, detail);
+  });
+  rows.replaceChildren(...nodes);
 }
 
 function setupExplainer() {
@@ -178,7 +269,9 @@ function setupExplainer() {
   let built = false;
   btn.onclick = () => {
     if (!built) { panel.replaceChildren(explainerNode(DATA.methodology)); built = true; }
-    panel.classList.toggle("hidden");
+    const open = panel.classList.toggle("hidden") === false;
+    btn.classList.toggle("active", open);
+    btn.setAttribute("aria-expanded", String(open));
   };
 }
 
@@ -217,7 +310,6 @@ function explainerNode(m) {
       }),
     ]}));
   });
-  // Clean sheet + appearance rows.
   body.appendChild(el("tr", { children: [
     el("td", { text: "Clean sheet" }),
     ...groups.map(g => el("td", { className: "num", text: String(m.cleanSheetBonus[g]) })),

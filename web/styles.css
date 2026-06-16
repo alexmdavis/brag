@@ -56,3 +56,11 @@ table.weights { width:100%; border-collapse:collapse; margin:12px 0; }
 table.weights th, table.weights td { border-bottom:1px solid #2a3056; padding:5px 8px; text-align:left; font-size:.85rem; }
 table.weights td.num, table.weights th:not(:first-child) { text-align:right; font-variant-numeric:tabular-nums; }
 .explainer-inner .notes { color:var(--muted); font-size:.8rem; padding-left:18px; }
+
+/* v2 tweaks: logo visibility on dark theme, button on/off state, players view */
+.tab-logo, .league-logo { background:#f4f5fb; border-radius:4px; padding:2px; }
+.tab-logo { width:18px; height:18px; }
+.league-logo { width:22px; height:22px; }
+.link-btn.active { background:var(--accent); color:#06241a; border-color:var(--accent); font-weight:600; }
+th.num { text-align:right; }
+.breakdown-row { color:var(--muted); font-size:.82rem; padding:6px 2px; }
