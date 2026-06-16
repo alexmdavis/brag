@@ -33,6 +33,7 @@ def build_mapping(fetch=fetch_json, leagues=None):
             except Exception:
                 continue
             club = roster.get("team", {}).get("displayName") or entry["team"].get("displayName")
+            club_logo = roster.get("team", {}).get("logo")
             for ath in roster.get("athletes", []):
                 aid = ath.get("id")
                 if not aid:
@@ -42,5 +43,6 @@ def build_mapping(fetch=fetch_json, leagues=None):
                     "league": league,
                     "leagueName": league_name,
                     "position": (ath.get("position", {}) or {}).get("abbreviation"),
+                    "clubLogo": club_logo,
                 }
     return mapping
