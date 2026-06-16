@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="World Cup bragging board">
+  <rect width="64" height="64" rx="14" fill="#0f1226"/>
+  <circle cx="32" cy="32" r="22" fill="#ffffff" stroke="#34d399" stroke-width="2.5"/>
+  <!-- central pentagon + seams, cut to the navy tile for a soccer-ball look -->
+  <polygon points="32,25 38.66,29.84 36.11,37.66 27.89,37.66 25.34,29.84" fill="#0f1226"/>
+  <g stroke="#0f1226" stroke-width="2.4" stroke-linecap="round">
+    <line x1="32" y1="25" x2="32" y2="12.5"/>
+    <line x1="38.66" y1="29.84" x2="50.5" y2="26"/>
+    <line x1="36.11" y1="37.66" x2="43.5" y2="47.8"/>
+    <line x1="27.89" y1="37.66" x2="20.5" y2="47.8"/>
+    <line x1="25.34" y1="29.84" x2="13.5" y2="26"/>
+  </g>
+</svg>
