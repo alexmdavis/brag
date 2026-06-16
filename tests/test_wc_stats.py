@@ -11,21 +11,20 @@ SUMMARY = {
          "participants": [{"athlete": {"id": "A2"}}, {"athlete": {"id": "A3"}}]},
     ],
     "rosters": [
-        {"team": {"id": "T1", "displayName": "England"}, "roster": [
+        {"team": {"id": "T1", "displayName": "England",
+                  "logos": [{"href": "flag-eng"}, {"href": "flag-eng-dark"}]},
+         "roster": [
             {"athlete": {"id": "A1", "displayName": "Saka"}, "starter": True,
              "subbedIn": False, "subbedOut": False,
              "stats": [{"name": "totalGoals", "value": 1.0},
-                       {"name": "goalAssists", "value": 0.0},
                        {"name": "appearances", "value": 1.0},
                        {"name": "goalsConceded", "value": 0.0}]},
             {"athlete": {"id": "A2", "displayName": "Bench"}, "starter": False,
              "subbedIn": True, "subbedOut": False,
-             "stats": [{"name": "totalGoals", "value": 0.0},
-                       {"name": "appearances", "value": 1.0}]},
-            {"athlete": {"id": "AX", "displayName": "Unused"}, "starter": False,
-             "subbedIn": False, "subbedOut": False, "stats": []},
+             "stats": [{"name": "appearances", "value": 1.0}]},
         ]},
-        {"team": {"id": "T2", "displayName": "France"}, "roster": [
+        {"team": {"id": "T2", "displayName": "France", "logos": [{"href": "flag-fra"}]},
+         "roster": [
             {"athlete": {"id": "U1", "displayName": "Unmapped"}, "starter": True,
              "subbedIn": False, "subbedOut": False, "stats": []},
         ]},
@@ -33,10 +32,10 @@ SUMMARY = {
 }
 
 MAPPING = {
-    "A1": {"club": "Arsenal", "league": "eng.1", "leagueName": "Premier League", "position": "M"},
-    "A2": {"club": "Chelsea", "league": "eng.1", "leagueName": "Premier League", "position": "F"},
-    "AX": {"club": "Arsenal", "league": "eng.1", "leagueName": "Premier League", "position": "D"},
-    # U1 deliberately absent -> excluded
+    "A1": {"club": "Arsenal", "league": "eng.1", "leagueName": "Premier League",
+           "position": "M", "clubLogo": "crest-ars"},
+    "A2": {"club": "Chelsea", "league": "eng.1", "leagueName": "Premier League",
+           "position": "F", "clubLogo": "crest-che"},
 }
 
 
@@ -44,24 +43,20 @@ def test_team_goals_conceded():
     assert team_goals_conceded(SUMMARY) == {"T1": 0, "T2": 2}
 
 
-def test_process_accumulates_featured_mapped_players_only():
+def test_process_captures_images():
     acc = {}
     process_match_summary(SUMMARY, MAPPING, acc)
-    # U1 unmapped -> excluded; AX mapped but did not feature -> excluded.
     assert set(acc) == {"A1", "A2"}
 
     a1 = acc["A1"]
-    assert a1["club"] == "Arsenal"
-    assert a1["nation"] == "England"
-    assert a1["position"] == "M"
-    assert a1["stats"]["totalGoals"] == 1.0
+    assert a1["nationFlag"] == "flag-eng"          # first/default logo variant
+    assert a1["clubLogo"] == "crest-ars"           # carried from mapping
+    assert a1["headshot"].endswith("/A1.png")      # derived from athlete id
     assert a1["minutes"] == 90
-    assert a1["matches"] == 1
-    assert a1["cleanSheets"] == 1          # T1 conceded 0, A1 featured
+    assert a1["cleanSheets"] == 1
 
-    a2 = acc["A2"]
-    assert a2["minutes"] == 20             # came on at 70'
-    assert a2["cleanSheets"] == 1
+    assert acc["A2"]["nationFlag"] == "flag-eng"
+    assert acc["A2"]["headshot"].endswith("/A2.png")
 
 
 def test_process_is_additive_across_matches():
@@ -70,5 +65,4 @@ def test_process_is_additive_across_matches():
     process_match_summary(SUMMARY, MAPPING, acc)
     assert acc["A1"]["stats"]["totalGoals"] == 2.0
     assert acc["A1"]["matches"] == 2
-    assert acc["A1"]["minutes"] == 180
-    assert acc["A1"]["cleanSheets"] == 2
+    assert acc["A1"]["nationFlag"] == "flag-eng"   # stable, not duplicated

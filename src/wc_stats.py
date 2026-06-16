@@ -1,6 +1,7 @@
 from datetime import date, timedelta
 
 from src import config
+from src.config import HEADSHOT_URL
 from src.espn_client import fetch_json
 from src.minutes import parse_sub_events, compute_minutes
 
@@ -27,15 +28,18 @@ def _stats_dict(player):
     return {s.get("name"): (s.get("value") or 0) for s in player.get("stats", []) or []}
 
 
-def _new_record(pid, player, info, nation):
+def _new_record(pid, player, info, nation, nation_flag):
     return {
         "id": pid,
         "name": player.get("athlete", {}).get("displayName"),
         "nation": nation,
+        "nationFlag": nation_flag,
+        "headshot": HEADSHOT_URL.format(id=pid),
         "club": info["club"],
         "league": info["league"],
         "leagueName": info["leagueName"],
         "position": info["position"],
+        "clubLogo": info.get("clubLogo"),
         "stats": {},
         "minutes": 0,
         "matches": 0,
@@ -49,8 +53,10 @@ def process_match_summary(summary, mapping, acc):
     conceded = team_goals_conceded(summary)
 
     for team in summary.get("rosters", []) or []:
-        nation = team.get("team", {}).get("displayName")
-        team_id = team.get("team", {}).get("id")
+        team_obj = team.get("team", {})
+        nation = team_obj.get("displayName")
+        team_id = team_obj.get("id")
+        nation_flag = (team_obj.get("logos") or [{}])[0].get("href")
         for player in team.get("roster", []) or []:
             pid = (player.get("athlete", {}) or {}).get("id")
             info = mapping.get(pid)
@@ -60,7 +66,7 @@ def process_match_summary(summary, mapping, acc):
             if not featured:
                 continue
 
-            rec = acc.get(pid) or _new_record(pid, player, info, nation)
+            rec = acc.get(pid) or _new_record(pid, player, info, nation, nation_flag)
             match_stats = _stats_dict(player)
             for name, value in match_stats.items():
                 rec["stats"][name] = rec["stats"].get(name, 0) + value
