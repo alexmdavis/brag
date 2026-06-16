@@ -1,22 +1,122 @@
 {
-  "generatedAt": "2026-06-16T15:02:00Z",
+  "generatedAt": "2026-06-16T15:58:59Z",
   "season": 2025,
   "tournament": "fifa.world",
   "coverage": {
     "playersMapped": 200,
     "clubs": 70
   },
+  "methodology": {
+    "positionGroups": {
+      "G": "GK",
+      "D": "DEF",
+      "M": "MID",
+      "F": "FWD"
+    },
+    "weights": {
+      "GK": {
+        "totalGoals": 6.0,
+        "goalAssists": 4.0,
+        "shotsOnTarget": 0.5,
+        "saves": 1.0,
+        "goalsConceded": -1.0,
+        "yellowCards": -1.0,
+        "redCards": -3.0,
+        "ownGoals": -4.0,
+        "foulsCommitted": -0.1
+      },
+      "DEF": {
+        "totalGoals": 6.0,
+        "goalAssists": 4.0,
+        "shotsOnTarget": 0.5,
+        "yellowCards": -1.0,
+        "redCards": -3.0,
+        "ownGoals": -4.0,
+        "foulsCommitted": -0.1
+      },
+      "MID": {
+        "totalGoals": 5.0,
+        "goalAssists": 4.0,
+        "shotsOnTarget": 0.7,
+        "totalShots": 0.1,
+        "yellowCards": -1.0,
+        "redCards": -3.0,
+        "ownGoals": -4.0,
+        "foulsCommitted": -0.1
+      },
+      "FWD": {
+        "totalGoals": 4.0,
+        "goalAssists": 3.0,
+        "shotsOnTarget": 1.0,
+        "totalShots": 0.2,
+        "yellowCards": -1.0,
+        "redCards": -3.0,
+        "ownGoals": -4.0
+      }
+    },
+    "cleanSheetBonus": {
+      "GK": 4.0,
+      "DEF": 4.0,
+      "MID": 1.0,
+      "FWD": 0.0
+    },
+    "appearancePoints": 0.5,
+    "fieldLabels": {
+      "totalGoals": "Goals",
+      "goalAssists": "Assists",
+      "shotsOnTarget": "Shots on target",
+      "totalShots": "Shots",
+      "saves": "Saves",
+      "goalsConceded": "Goals conceded",
+      "yellowCards": "Yellow cards",
+      "redCards": "Red cards",
+      "ownGoals": "Own goals",
+      "foulsCommitted": "Fouls committed"
+    },
+    "views": [
+      {
+        "key": "total",
+        "label": "Total",
+        "formula": "Sum of every player's rating for the club."
+      },
+      {
+        "key": "average",
+        "label": "Average",
+        "formula": "Mean rating across the club's World Cup players."
+      },
+      {
+        "key": "per90",
+        "label": "Per-90",
+        "formula": "Total rating divided by (total minutes / 90)."
+      },
+      {
+        "key": "bestXI",
+        "label": "Best XI",
+        "formula": "Sum of the club's top 11 player ratings."
+      }
+    ],
+    "notes": [
+      "Players are attributed to their 2025\u201326 club.",
+      "Stats come from completed or in-progress World Cup matches via ESPN.",
+      "A clean sheet = a match the player featured in where his team conceded 0 goals.",
+      "A small appearance bonus rewards simply featuring."
+    ]
+  },
   "clubs": [
     {
       "club": "Liverpool",
       "league": "eng.1",
       "leagueName": "Premier League",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
       "players": [
         {
           "id": "235662",
           "name": "Alexander Isak",
           "position": "F",
           "nation": "Sweden",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/235662.png",
           "minutes": 90,
           "rating": 13.1,
           "breakdown": [
@@ -47,6 +147,8 @@
           "name": "Ryan Gravenberch",
           "position": "M",
           "nation": "Netherlands",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/274632.png",
           "minutes": 81,
           "rating": 8.5,
           "breakdown": [
@@ -65,6 +167,8 @@
           "name": "Virgil van Dijk",
           "position": "D",
           "nation": "Netherlands",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/157892.png",
           "minutes": 90,
           "rating": 7.0,
           "breakdown": [
@@ -87,6 +191,8 @@
           "name": "Florian Wirtz",
           "position": "M",
           "nation": "Germany",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/303748.png",
           "minutes": 90,
           "rating": 4.8,
           "breakdown": [
@@ -109,6 +215,8 @@
           "name": "Mohamed Salah",
           "position": "F",
           "nation": "Egypt",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/173896.png",
           "minutes": 76,
           "rating": 4.7,
           "breakdown": [
@@ -135,6 +243,8 @@
           "name": "Andy Robertson",
           "position": "D",
           "nation": "Scotland",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/104943.png",
           "minutes": 90,
           "rating": 4.3,
           "breakdown": [
@@ -157,6 +267,8 @@
           "name": "Cody Gakpo",
           "position": "F",
           "nation": "Netherlands",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/249524.png",
           "minutes": 85,
           "rating": 1.9,
           "breakdown": [
@@ -179,6 +291,8 @@
           "name": "Alisson Becker",
           "position": "G",
           "nation": "Brazil",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/196876.png",
           "minutes": 90,
           "rating": 1.5,
           "breakdown": [
@@ -209,12 +323,16 @@
       "club": "Arsenal",
       "league": "eng.1",
       "leagueName": "Premier League",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
       "players": [
         {
           "id": "231182",
           "name": "Kai Havertz",
           "position": "F",
           "nation": "Germany",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/231182.png",
           "minutes": 90,
           "rating": 11.3,
           "breakdown": [
@@ -241,6 +359,8 @@
           "name": "Viktor Gy\u00f6keres",
           "position": "F",
           "nation": "Sweden",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/258906.png",
           "minutes": 90,
           "rating": 10.5,
           "breakdown": [
@@ -271,6 +391,8 @@
           "name": "Mikel Merino",
           "position": "M",
           "nation": "Spain",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/209581.png",
           "minutes": 19,
           "rating": 2.2,
           "breakdown": [
@@ -301,6 +423,8 @@
           "name": "Leandro Trossard",
           "position": "F",
           "nation": "Belgium",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/174980.png",
           "minutes": 90,
           "rating": 1.1,
           "breakdown": [
@@ -319,6 +443,8 @@
           "name": "Piero Hincapi\u00e9",
           "position": "D",
           "nation": "Ecuador",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/292062.png",
           "minutes": 90,
           "rating": 0.5,
           "breakdown": [
@@ -333,6 +459,8 @@
           "name": "Gabriel Magalh\u00e3es",
           "position": "D",
           "nation": "Brazil",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/236322.png",
           "minutes": 90,
           "rating": 0.4,
           "breakdown": [
@@ -359,12 +487,16 @@
       "club": "Nottingham Forest",
       "league": "eng.1",
       "leagueName": "Premier League",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
       "players": [
         {
           "id": "134190",
           "name": "Chris Wood",
           "position": "F",
           "nation": "New Zealand",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/134190.png",
           "minutes": 90,
           "rating": 9.3,
           "breakdown": [
@@ -391,6 +523,8 @@
           "name": "Angus Gunn",
           "position": "G",
           "nation": "Scotland",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/181299.png",
           "minutes": 90,
           "rating": 6.5,
           "breakdown": [
@@ -413,6 +547,8 @@
           "name": "Dan Ndoye",
           "position": "F",
           "nation": "Switzerland",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/275842.png",
           "minutes": 65,
           "rating": 3.7,
           "breakdown": [
@@ -435,6 +571,8 @@
           "name": "Ibrahim Sangar\u00e9",
           "position": "M",
           "nation": "Ivory Coast",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/213718.png",
           "minutes": 13,
           "rating": 1.5,
           "breakdown": [
@@ -461,12 +599,16 @@
       "club": "Borussia Dortmund",
       "league": "ger.1",
       "leagueName": "Bundesliga",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
       "players": [
         {
           "id": "281122",
           "name": "Felix Nmecha",
           "position": "M",
           "nation": "Germany",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/281122.png",
           "minutes": 73,
           "rating": 7.9,
           "breakdown": [
@@ -497,6 +639,8 @@
           "name": "Nico Schlotterbeck",
           "position": "D",
           "nation": "Germany",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/286828.png",
           "minutes": 90,
           "rating": 7.3,
           "breakdown": [
@@ -523,6 +667,8 @@
           "name": "Gregor Kobel",
           "position": "G",
           "nation": "Switzerland",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/238544.png",
           "minutes": 90,
           "rating": 2.5,
           "breakdown": [
@@ -545,6 +691,8 @@
           "name": "Salih \u00d6zcan",
           "position": "M",
           "nation": "T\u00fcrkiye",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/225563.png",
           "minutes": 9,
           "rating": 0.5,
           "breakdown": [
@@ -559,6 +707,8 @@
           "name": "Waldemar Anton",
           "position": "D",
           "nation": "Germany",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/220714.png",
           "minutes": 7,
           "rating": 0.5,
           "breakdown": [
@@ -573,6 +723,8 @@
           "name": "Daniel Svensson",
           "position": "D",
           "nation": "Sweden",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/310709.png",
           "minutes": 1,
           "rating": 0.5,
           "breakdown": [
@@ -595,12 +747,16 @@
       "club": "Real Madrid",
       "league": "esp.1",
       "leagueName": "La Liga",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
       "players": [
         {
           "id": "252107",
           "name": "Vin\u00edcius J\u00fanior",
           "position": "F",
           "nation": "Brazil",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/252107.png",
           "minutes": 90,
           "rating": 5.7,
           "breakdown": [
@@ -627,6 +783,8 @@
           "name": "Brahim D\u00edaz",
           "position": "M",
           "nation": "Morocco",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/246532.png",
           "minutes": 65,
           "rating": 5.5,
           "breakdown": [
@@ -653,6 +811,8 @@
           "name": "Arda G\u00fcler",
           "position": "M",
           "nation": "T\u00fcrkiye",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/310452.png",
           "minutes": 90,
           "rating": 3.4,
           "breakdown": [
@@ -675,6 +835,8 @@
           "name": "Federico Valverde",
           "position": "M",
           "nation": "Uruguay",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/235818.png",
           "minutes": 90,
           "rating": 2.1,
           "breakdown": [
@@ -701,6 +863,8 @@
           "name": "Thibaut Courtois",
           "position": "G",
           "nation": "Belgium",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/134283.png",
           "minutes": 90,
           "rating": 1.5,
           "breakdown": [
@@ -723,6 +887,8 @@
           "name": "Antonio R\u00fcdiger",
           "position": "D",
           "nation": "Germany",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/169438.png",
           "minutes": 17,
           "rating": 0.5,
           "breakdown": [
@@ -745,12 +911,16 @@
       "club": "Bayern Munich",
       "league": "ger.1",
       "leagueName": "Bundesliga",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
       "players": [
         {
           "id": "190161",
           "name": "Joshua Kimmich",
           "position": "M",
           "nation": "Germany",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/190161.png",
           "minutes": 83,
           "rating": 8.5,
           "breakdown": [
@@ -769,6 +939,8 @@
           "name": "Jamal Musiala",
           "position": "M",
           "nation": "Germany",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/303821.png",
           "minutes": 64,
           "rating": 6.3,
           "breakdown": [
@@ -799,6 +971,8 @@
           "name": "Aleksandar Pavlovic",
           "position": "M",
           "nation": "Germany",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/359370.png",
           "minutes": 90,
           "rating": 0.9,
           "breakdown": [
@@ -825,6 +999,8 @@
           "name": "Manuel Neuer",
           "position": "G",
           "nation": "Germany",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/84774.png",
           "minutes": 90,
           "rating": 0.5,
           "breakdown": [
@@ -847,6 +1023,8 @@
           "name": "Leon Goretzka",
           "position": "M",
           "nation": "Germany",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/174550.png",
           "minutes": 17,
           "rating": 0.5,
           "breakdown": [
@@ -861,6 +1039,8 @@
           "name": "Hiroki Ito",
           "position": "D",
           "nation": "Japan",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/97111.png",
           "minutes": 90,
           "rating": 0.4,
           "breakdown": [
@@ -879,6 +1059,8 @@
           "name": "Kim Min-Jae",
           "position": "D",
           "nation": "South Korea",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/157688.png",
           "minutes": 90,
           "rating": 0.3,
           "breakdown": [
@@ -897,6 +1079,8 @@
           "name": "Jonathan Tah",
           "position": "D",
           "nation": "Germany",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/188052.png",
           "minutes": 73,
           "rating": 0.3,
           "breakdown": [
@@ -923,12 +1107,16 @@
       "club": "Barcelona",
       "league": "esp.1",
       "leagueName": "La Liga",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
       "players": [
         {
           "id": "368992",
           "name": "Pau Cubars\u00ed",
           "position": "D",
           "nation": "Spain",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/368992.png",
           "minutes": 90,
           "rating": 4.5,
           "breakdown": [
@@ -947,6 +1135,8 @@
           "name": "Ferran Torres",
           "position": "F",
           "nation": "Spain",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/265869.png",
           "minutes": 81,
           "rating": 2.3,
           "breakdown": [
@@ -969,6 +1159,8 @@
           "name": "Raphinha",
           "position": "F",
           "nation": "Brazil",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/231050.png",
           "minutes": 90,
           "rating": 1.9,
           "breakdown": [
@@ -991,6 +1183,8 @@
           "name": "Dani Olmo",
           "position": "M",
           "nation": "Spain",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/227765.png",
           "minutes": 9,
           "rating": 1.5,
           "breakdown": [
@@ -1009,6 +1203,8 @@
           "name": "Gavi",
           "position": "M",
           "nation": "Spain",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/323702.png",
           "minutes": 71,
           "rating": 1.4,
           "breakdown": [
@@ -1035,6 +1231,8 @@
           "name": "Pedri",
           "position": "M",
           "nation": "Spain",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/250465.png",
           "minutes": 90,
           "rating": 1.3,
           "breakdown": [
@@ -1069,6 +1267,8 @@
           "name": "Lamine Yamal",
           "position": "F",
           "nation": "Spain",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/362150.png",
           "minutes": 19,
           "rating": 0.9,
           "breakdown": [
@@ -1087,6 +1287,8 @@
           "name": "Frenkie de Jong",
           "position": "M",
           "nation": "Netherlands",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/219022.png",
           "minutes": 90,
           "rating": 0.3,
           "breakdown": [
@@ -1113,12 +1315,16 @@
       "club": "Eintracht Frankfurt",
       "league": "ger.1",
       "leagueName": "Bundesliga",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
       "players": [
         {
           "id": "120829",
           "name": "Nathaniel Brown",
           "position": "D",
           "nation": "Germany",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/120829.png",
           "minutes": 73,
           "rating": 10.8,
           "breakdown": [
@@ -1149,6 +1355,8 @@
           "name": "Ayoube Amaimouni",
           "position": "F",
           "nation": "Morocco",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/416636.png",
           "minutes": 10,
           "rating": 1.7,
           "breakdown": [
@@ -1171,6 +1379,8 @@
           "name": "Ellyes Skhiri",
           "position": "M",
           "nation": "Tunisia",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/209595.png",
           "minutes": 72,
           "rating": 0.5,
           "breakdown": [
@@ -1185,6 +1395,8 @@
           "name": "Ritsu Doan",
           "position": "M",
           "nation": "Japan",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/219627.png",
           "minutes": 75,
           "rating": 0.4,
           "breakdown": [
@@ -1211,12 +1423,16 @@
       "club": "VfB Stuttgart",
       "league": "ger.1",
       "leagueName": "Bundesliga",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
       "players": [
         {
           "id": "273300",
           "name": "Deniz Undav",
           "position": "F",
           "nation": "Germany",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/273300.png",
           "minutes": 26,
           "rating": 11.7,
           "breakdown": [
@@ -1247,6 +1463,8 @@
           "name": "Ermedin Demirovic",
           "position": "F",
           "nation": "Bosnia-Herzegovina",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/269136.png",
           "minutes": 90,
           "rating": 0.7,
           "breakdown": [
@@ -1273,6 +1491,8 @@
           "name": "Bilal El Khannouss",
           "position": "M",
           "nation": "Morocco",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/336595.png",
           "minutes": 80,
           "rating": 0.4,
           "breakdown": [
@@ -1303,12 +1523,16 @@
       "club": "AS Monaco",
       "league": "fra.1",
       "leagueName": "Ligue 1",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
       "players": [
         {
           "id": "282643",
           "name": "Folarin Balogun",
           "position": "F",
           "nation": "United States",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/282643.png",
           "minutes": 72,
           "rating": 12.5,
           "breakdown": [
@@ -1335,6 +1559,8 @@
           "name": "Denis Zakaria",
           "position": "M",
           "nation": "Switzerland",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/222628.png",
           "minutes": 90,
           "rating": 0.3,
           "breakdown": [
@@ -1373,12 +1599,16 @@
       "club": "Brighton & Hove Albion",
       "league": "eng.1",
       "leagueName": "Premier League",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
       "players": [
         {
           "id": "304242",
           "name": "Yasin Ayari",
           "position": "M",
           "nation": "Sweden",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/304242.png",
           "minutes": 90,
           "rating": 12.0,
           "breakdown": [
@@ -1409,6 +1639,8 @@
           "name": "Jan Paul van Hecke",
           "position": "D",
           "nation": "Netherlands",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/282583.png",
           "minutes": 90,
           "rating": 1.0,
           "breakdown": [
@@ -1427,6 +1659,8 @@
           "name": "Ferdi Kadioglu",
           "position": "D",
           "nation": "T\u00fcrkiye",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/238318.png",
           "minutes": 90,
           "rating": 0.5,
           "breakdown": [
@@ -1441,6 +1675,8 @@
           "name": "Diego G\u00f3mez",
           "position": "M",
           "nation": "Paraguay",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/192278.png",
           "minutes": 80,
           "rating": -0.2,
           "breakdown": [
@@ -1467,6 +1703,8 @@
           "name": "Bart Verbruggen",
           "position": "G",
           "nation": "Netherlands",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/291609.png",
           "minutes": 90,
           "rating": -0.5,
           "breakdown": [
@@ -1489,6 +1727,8 @@
           "name": "Maxim De Cuyper",
           "position": "D",
           "nation": "Belgium",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/301327.png",
           "minutes": 34,
           "rating": -0.7,
           "breakdown": [
@@ -1519,12 +1759,16 @@
       "club": "Athletic Club",
       "league": "esp.1",
       "leagueName": "La Liga",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
       "players": [
         {
           "id": "222375",
           "name": "Unai Sim\u00f3n",
           "position": "G",
           "nation": "Spain",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/222375.png",
           "minutes": 90,
           "rating": 5.5,
           "breakdown": [
@@ -1547,6 +1791,8 @@
           "name": "Aymeric Laporte",
           "position": "D",
           "nation": "Spain",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/159317.png",
           "minutes": 90,
           "rating": 5.0,
           "breakdown": [
@@ -1569,6 +1815,8 @@
           "name": "Nico Williams",
           "position": "F",
           "nation": "Spain",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/312146.png",
           "minutes": 3,
           "rating": 0.5,
           "breakdown": [
@@ -1591,12 +1839,16 @@
       "club": "Atalanta",
       "league": "ita.1",
       "leagueName": "Serie A",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
       "players": [
         {
           "id": "284822",
           "name": "Odilon Kossounou",
           "position": "D",
           "nation": "Ivory Coast",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/284822.png",
           "minutes": 1,
           "rating": 4.5,
           "breakdown": [
@@ -1615,6 +1867,8 @@
           "name": "Sead Kolasinac",
           "position": "D",
           "nation": "Bosnia-Herzegovina",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/170553.png",
           "minutes": 84,
           "rating": 4.2,
           "breakdown": [
@@ -1637,6 +1891,8 @@
           "name": "Charles De Ketelaere",
           "position": "F",
           "nation": "Belgium",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/296319.png",
           "minutes": 66,
           "rating": 0.5,
           "breakdown": [
@@ -1651,6 +1907,8 @@
           "name": "Isak Hien",
           "position": "D",
           "nation": "Sweden",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/312862.png",
           "minutes": 90,
           "rating": 0.4,
           "breakdown": [
@@ -1677,12 +1935,16 @@
       "club": "St. Pauli",
       "league": "ger.1",
       "leagueName": "Bundesliga",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/270.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
       "players": [
         {
           "id": "260643",
           "name": "Connor Metcalfe",
           "position": "M",
           "nation": "Australia",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/260643.png",
           "minutes": 90,
           "rating": 7.3,
           "breakdown": [
@@ -1713,6 +1975,8 @@
           "name": "Jackson Irvine",
           "position": "M",
           "nation": "Australia",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/178071.png",
           "minutes": 6,
           "rating": 1.4,
           "breakdown": [
@@ -1735,6 +1999,8 @@
           "name": "Nikola Vasilj",
           "position": "G",
           "nation": "Bosnia-Herzegovina",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/79941.png",
           "minutes": 90,
           "rating": 0.5,
           "breakdown": [
@@ -1765,12 +2031,16 @@
       "club": "Paris Saint-Germain",
       "league": "fra.1",
       "leagueName": "Ligue 1",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
       "players": [
         {
           "id": "274197",
           "name": "Lee Kang-In",
           "position": "M",
           "nation": "South Korea",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/274197.png",
           "minutes": 90,
           "rating": 5.3,
           "breakdown": [
@@ -1797,6 +2067,8 @@
           "name": "Fabi\u00e1n Ruiz",
           "position": "M",
           "nation": "Spain",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/214596.png",
           "minutes": 71,
           "rating": 2.7,
           "breakdown": [
@@ -1823,6 +2095,8 @@
           "name": "Marquinhos",
           "position": "D",
           "nation": "Brazil",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/159047.png",
           "minutes": 90,
           "rating": 0.5,
           "breakdown": [
@@ -1837,6 +2111,8 @@
           "name": "Willian Pacho",
           "position": "D",
           "nation": "Ecuador",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/287005.png",
           "minutes": 90,
           "rating": 0.4,
           "breakdown": [
@@ -1855,6 +2131,8 @@
           "name": "Achraf Hakimi",
           "position": "D",
           "nation": "Morocco",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/240233.png",
           "minutes": 90,
           "rating": 0.2,
           "breakdown": [
@@ -1881,12 +2159,16 @@
       "club": "Aston Villa",
       "league": "eng.1",
       "leagueName": "Premier League",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
       "players": [
         {
           "id": "162843",
           "name": "John McGinn",
           "position": "M",
           "nation": "Scotland",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/162843.png",
           "minutes": 83,
           "rating": 7.4,
           "breakdown": [
@@ -1917,6 +2199,8 @@
           "name": "Youri Tielemans",
           "position": "M",
           "nation": "Belgium",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/193297.png",
           "minutes": 90,
           "rating": 0.6,
           "breakdown": [
@@ -1939,6 +2223,8 @@
           "name": "Amadou Onana",
           "position": "M",
           "nation": "Belgium",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/304799.png",
           "minutes": 56,
           "rating": 0.4,
           "breakdown": [
@@ -1957,6 +2243,8 @@
           "name": "Victor Lindel\u00f6f",
           "position": "D",
           "nation": "Sweden",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/204679.png",
           "minutes": 90,
           "rating": 0.3,
           "breakdown": [
@@ -1983,12 +2271,16 @@
       "club": "Manchester United",
       "league": "eng.1",
       "leagueName": "Premier League",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
       "players": [
         {
           "id": "291630",
           "name": "Amad Diallo",
           "position": "F",
           "nation": "Ivory Coast",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/291630.png",
           "minutes": 34,
           "rating": 6.9,
           "breakdown": [
@@ -2015,6 +2307,8 @@
           "name": "Manuel Ugarte",
           "position": "M",
           "nation": "Uruguay",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/241468.png",
           "minutes": 72,
           "rating": 1.4,
           "breakdown": [
@@ -2037,6 +2331,8 @@
           "name": "Matheus Cunha",
           "position": "F",
           "nation": "Brazil",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/259902.png",
           "minutes": 29,
           "rating": 0.5,
           "breakdown": [
@@ -2051,6 +2347,8 @@
           "name": "Noussair Mazraoui",
           "position": "D",
           "nation": "Morocco",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/239350.png",
           "minutes": 80,
           "rating": 0.3,
           "breakdown": [
@@ -2069,6 +2367,8 @@
           "name": "Casemiro",
           "position": "M",
           "nation": "Brazil",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/173666.png",
           "minutes": 45,
           "rating": -0.6,
           "breakdown": [
@@ -2099,12 +2399,16 @@
       "club": "Strasbourg",
       "league": "fra.1",
       "leagueName": "Ligue 1",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
       "players": [
         {
           "id": "20975",
           "name": "Julio Enciso",
           "position": "M",
           "nation": "Paraguay",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/20975.png",
           "minutes": 90,
           "rating": 4.7,
           "breakdown": [
@@ -2127,6 +2431,8 @@
           "name": "Guela Dou\u00e9",
           "position": "D",
           "nation": "Ivory Coast",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/346636.png",
           "minutes": 89,
           "rating": 3.2,
           "breakdown": [
@@ -2153,6 +2459,8 @@
           "name": "Samir El Mourabet",
           "position": "M",
           "nation": "Morocco",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/378491.png",
           "minutes": 25,
           "rating": 0.5,
           "breakdown": [
@@ -2175,12 +2483,16 @@
       "club": "Villarreal",
       "league": "esp.1",
       "leagueName": "La Liga",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
       "players": [
         {
           "id": "248276",
           "name": "Alex Freeman",
           "position": "D",
           "nation": "United States",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/248276.png",
           "minutes": 90,
           "rating": 4.4,
           "breakdown": [
@@ -2203,6 +2515,8 @@
           "name": "Tani Oluwaseyi",
           "position": "F",
           "nation": "Canada",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/294039.png",
           "minutes": 76,
           "rating": 1.9,
           "breakdown": [
@@ -2225,6 +2539,8 @@
           "name": "Nicolas P\u00e9p\u00e9",
           "position": "F",
           "nation": "Ivory Coast",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/210397.png",
           "minutes": 77,
           "rating": 0.9,
           "breakdown": [
@@ -2243,6 +2559,8 @@
           "name": "Tajon Buchanan",
           "position": "F",
           "nation": "Canada",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/284769.png",
           "minutes": 61,
           "rating": 0.5,
           "breakdown": [
@@ -2265,12 +2583,16 @@
       "club": "Fulham",
       "league": "eng.1",
       "leagueName": "Premier League",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
       "players": [
         {
           "id": "167060",
           "name": "Ra\u00fal Jim\u00e9nez",
           "position": "F",
           "nation": "Mexico",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/167060.png",
           "minutes": 76,
           "rating": 7.3,
           "breakdown": [
@@ -2297,6 +2619,8 @@
           "name": "Issa Diop",
           "position": "D",
           "nation": "Morocco",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/230963.png",
           "minutes": 90,
           "rating": 0.5,
           "breakdown": [
@@ -2311,6 +2635,8 @@
           "name": "Antonee Robinson",
           "position": "D",
           "nation": "United States",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/222396.png",
           "minutes": 90,
           "rating": 0.4,
           "breakdown": [
@@ -2329,6 +2655,8 @@
           "name": "Timothy Castagne",
           "position": "D",
           "nation": "Belgium",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/197163.png",
           "minutes": 56,
           "rating": -0.6,
           "breakdown": [
@@ -2359,12 +2687,16 @@
       "club": "Crystal Palace",
       "league": "eng.1",
       "leagueName": "Premier League",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
       "players": [
         {
           "id": "219362",
           "name": "Daichi Kamada",
           "position": "M",
           "nation": "Japan",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/219362.png",
           "minutes": 90,
           "rating": 6.3,
           "breakdown": [
@@ -2391,6 +2723,8 @@
           "name": "Chadi Riad",
           "position": "D",
           "nation": "Morocco",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/307870.png",
           "minutes": 90,
           "rating": 0.5,
           "breakdown": [
@@ -2405,6 +2739,8 @@
           "name": "Chris Richards",
           "position": "D",
           "nation": "United States",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/272585.png",
           "minutes": 90,
           "rating": 0.2,
           "breakdown": [
@@ -2431,12 +2767,16 @@
       "club": "Wolverhampton Wanderers",
       "league": "eng.1",
       "leagueName": "Premier League",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
       "players": [
         {
           "id": "151714",
           "name": "Ladislav Krejc\u00ed",
           "position": "D",
           "nation": "Czechia",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/151714.png",
           "minutes": 90,
           "rating": 6.7,
           "breakdown": [
@@ -2463,6 +2803,8 @@
           "name": "Hwang Hee-Chan",
           "position": "F",
           "nation": "South Korea",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/237224.png",
           "minutes": 28,
           "rating": 0.5,
           "breakdown": [
@@ -2477,6 +2819,8 @@
           "name": "Jean-Ricner Bellegarde",
           "position": "M",
           "nation": "Haiti",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/240369.png",
           "minutes": 90,
           "rating": -0.3,
           "breakdown": [
@@ -2511,12 +2855,16 @@
       "club": "Parma",
       "league": "ita.1",
       "leagueName": "Serie A",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
       "players": [
         {
           "id": "332081",
           "name": "Alessandro Circati",
           "position": "D",
           "nation": "Australia",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/332081.png",
           "minutes": 90,
           "rating": 4.4,
           "breakdown": [
@@ -2539,6 +2887,8 @@
           "name": "Zion Suzuki",
           "position": "G",
           "nation": "Japan",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/265958.png",
           "minutes": 90,
           "rating": 2.5,
           "breakdown": [
@@ -2569,12 +2919,16 @@
       "club": "TSG Hoffenheim",
       "league": "ger.1",
       "leagueName": "Bundesliga",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
       "players": [
         {
           "id": "191209",
           "name": "Vladim\u00edr Coufal",
           "position": "D",
           "nation": "Czechia",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/191209.png",
           "minutes": 90,
           "rating": 4.2,
           "breakdown": [
@@ -2597,6 +2951,8 @@
           "name": "Adam Hlozek",
           "position": "F",
           "nation": "Czechia",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/292169.png",
           "minutes": 26,
           "rating": 1.9,
           "breakdown": [
@@ -2619,6 +2975,8 @@
           "name": "Bazoumana Tour\u00e9",
           "position": "F",
           "nation": "Ivory Coast",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/359108.png",
           "minutes": 56,
           "rating": 0.5,
           "breakdown": [
@@ -2633,6 +2991,8 @@
           "name": "Robin Hran\u00e1c",
           "position": "D",
           "nation": "Czechia",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/322510.png",
           "minutes": 90,
           "rating": 0.2,
           "breakdown": [
@@ -2659,12 +3019,16 @@
       "club": "Bayer Leverkusen",
       "league": "ger.1",
       "leagueName": "Bundesliga",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
       "players": [
         {
           "id": "301416",
           "name": "Malik Tillman",
           "position": "M",
           "nation": "United States",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/301416.png",
           "minutes": 82,
           "rating": 6.3,
           "breakdown": [
@@ -2695,6 +3059,8 @@
           "name": "Patrik Schick",
           "position": "F",
           "nation": "Czechia",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/212330.png",
           "minutes": 64,
           "rating": 0.5,
           "breakdown": [
@@ -2717,12 +3083,16 @@
       "club": "VfL Wolfsburg",
       "league": "ger.1",
       "leagueName": "Bundesliga",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/138.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
       "players": [
         {
           "id": "220120",
           "name": "Mattias Svanberg",
           "position": "M",
           "nation": "Sweden",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/220120.png",
           "minutes": 6,
           "rating": 6.3,
           "breakdown": [
@@ -2749,6 +3119,8 @@
           "name": "Kento Shiogai",
           "position": "F",
           "nation": "Japan",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/362959.png",
           "minutes": 6,
           "rating": 0.5,
           "breakdown": [
@@ -2771,12 +3143,16 @@
       "club": "Borussia M\u00f6nchengladbach",
       "league": "ger.1",
       "leagueName": "Bundesliga",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
       "players": [
         {
           "id": "290230",
           "name": "Giovanni Reyna",
           "position": "M",
           "nation": "United States",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/290230.png",
           "minutes": 8,
           "rating": 6.2,
           "breakdown": [
@@ -2807,6 +3183,8 @@
           "name": "Nico Elvedi",
           "position": "D",
           "nation": "Switzerland",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/212237.png",
           "minutes": 90,
           "rating": 0.3,
           "breakdown": [
@@ -2833,12 +3211,16 @@
       "club": "Stade Rennais",
       "league": "fra.1",
       "leagueName": "Ligue 1",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
       "players": [
         {
           "id": "202099",
           "name": "Breel Embolo",
           "position": "F",
           "nation": "Switzerland",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/202099.png",
           "minutes": 90,
           "rating": 6.3,
           "breakdown": [
@@ -2873,12 +3255,16 @@
       "club": "Real Sociedad",
       "league": "esp.1",
       "leagueName": "La Liga",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
       "players": [
         {
           "id": "256587",
           "name": "Takefusa Kubo",
           "position": "F",
           "nation": "Japan",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/256587.png",
           "minutes": 75,
           "rating": 3.7,
           "breakdown": [
@@ -2901,6 +3287,8 @@
           "name": "Mikel Oyarzabal",
           "position": "F",
           "nation": "Spain",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/229018.png",
           "minutes": 90,
           "rating": 2.5,
           "breakdown": [
@@ -2931,12 +3319,16 @@
       "club": "Burnley",
       "league": "eng.1",
       "leagueName": "Premier League",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/379.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
       "players": [
         {
           "id": "300007",
           "name": "Hannibal Mejbri",
           "position": "M",
           "nation": "Tunisia",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/300007.png",
           "minutes": 90,
           "rating": 4.6,
           "breakdown": [
@@ -2959,6 +3351,8 @@
           "name": "Lyle Foster",
           "position": "F",
           "nation": "South Africa",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/264751.png",
           "minutes": 56,
           "rating": 0.7,
           "breakdown": [
@@ -2977,6 +3371,8 @@
           "name": "Zeki Amdouni",
           "position": "F",
           "nation": "Switzerland",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/320757.png",
           "minutes": 11,
           "rating": 0.7,
           "breakdown": [
@@ -3003,12 +3399,16 @@
       "club": "West Ham United",
       "league": "eng.1",
       "leagueName": "Premier League",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/371.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
       "players": [
         {
           "id": "284792",
           "name": "Crysencio Summerville",
           "position": "F",
           "nation": "Netherlands",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/284792.png",
           "minutes": 70,
           "rating": 4.7,
           "breakdown": [
@@ -3039,6 +3439,8 @@
           "name": "Tom\u00e1s Soucek",
           "position": "M",
           "nation": "Czechia",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/230666.png",
           "minutes": 90,
           "rating": 0.5,
           "breakdown": [
@@ -3069,12 +3471,16 @@
       "club": "Brentford",
       "league": "eng.1",
       "leagueName": "Premier League",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
       "players": [
         {
           "id": "283940",
           "name": "Aaron Hickey",
           "position": "D",
           "nation": "Scotland",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/283940.png",
           "minutes": 75,
           "rating": 3.3,
           "breakdown": [
@@ -3101,6 +3507,8 @@
           "name": "Igor Thiago",
           "position": "F",
           "nation": "Brazil",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/301894.png",
           "minutes": 62,
           "rating": 1.9,
           "breakdown": [
@@ -3131,12 +3539,16 @@
       "club": "Chelsea",
       "league": "eng.1",
       "leagueName": "Premier League",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
       "players": [
         {
           "id": "259910",
           "name": "Marc Cucurella",
           "position": "D",
           "nation": "Spain",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/259910.png",
           "minutes": 90,
           "rating": 4.9,
           "breakdown": [
@@ -3163,6 +3575,8 @@
           "name": "Mois\u00e9s Caicedo",
           "position": "M",
           "nation": "Ecuador",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/289877.png",
           "minutes": 90,
           "rating": 0.3,
           "breakdown": [
@@ -3193,12 +3607,16 @@
       "club": "AC Milan",
       "league": "ita.1",
       "leagueName": "Serie A",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
       "players": [
         {
           "id": "225607",
           "name": "Christian Pulisic",
           "position": "M",
           "nation": "United States",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/225607.png",
           "minutes": 45,
           "rating": 4.4,
           "breakdown": [
@@ -3221,6 +3639,8 @@
           "name": "Ardon Jashari",
           "position": "M",
           "nation": "Switzerland",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/303973.png",
           "minutes": 1,
           "rating": 0.6,
           "breakdown": [
@@ -3247,12 +3667,16 @@
       "club": "Newcastle United",
       "league": "eng.1",
       "leagueName": "Premier League",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
       "players": [
         {
           "id": "218522",
           "name": "Bruno Guimar\u00e3es",
           "position": "M",
           "nation": "Brazil",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/218522.png",
           "minutes": 80,
           "rating": 4.5,
           "breakdown": [
@@ -3279,6 +3703,8 @@
           "name": "Anthony Elanga",
           "position": "F",
           "nation": "Sweden",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/296622.png",
           "minutes": 1,
           "rating": 0.5,
           "breakdown": [
@@ -3301,12 +3727,16 @@
       "club": "Juventus",
       "league": "ita.1",
       "leagueName": "Serie A",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
       "players": [
         {
           "id": "273499",
           "name": "Jonathan David",
           "position": "F",
           "nation": "Canada",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/273499.png",
           "minutes": 61,
           "rating": 2.1,
           "breakdown": [
@@ -3329,6 +3759,8 @@
           "name": "Kenan Yildiz",
           "position": "F",
           "nation": "T\u00fcrkiye",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/366509.png",
           "minutes": 45,
           "rating": 1.7,
           "breakdown": [
@@ -3347,6 +3779,8 @@
           "name": "Teun Koopmeiners",
           "position": "M",
           "nation": "Netherlands",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/258968.png",
           "minutes": 20,
           "rating": 0.6,
           "breakdown": [
@@ -3369,6 +3803,8 @@
           "name": "Weston McKennie",
           "position": "M",
           "nation": "United States",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/256715.png",
           "minutes": 90,
           "rating": 0.5,
           "breakdown": [
@@ -3391,12 +3827,16 @@
       "club": "Manchester City",
       "league": "eng.1",
       "leagueName": "Premier League",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
       "players": [
         {
           "id": "231828",
           "name": "Rodri",
           "position": "M",
           "nation": "Spain",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/231828.png",
           "minutes": 87,
           "rating": 1.6,
           "breakdown": [
@@ -3423,6 +3863,8 @@
           "name": "Omar Marmoush",
           "position": "F",
           "nation": "Egypt",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/303745.png",
           "minutes": 90,
           "rating": 1.5,
           "breakdown": [
@@ -3441,6 +3883,8 @@
           "name": "J\u00e9r\u00e9my Doku",
           "position": "F",
           "nation": "Belgium",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/283672.png",
           "minutes": 86,
           "rating": 0.7,
           "breakdown": [
@@ -3459,6 +3903,8 @@
           "name": "Tijjani Reijnders",
           "position": "M",
           "nation": "Netherlands",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/261328.png",
           "minutes": 70,
           "rating": 0.5,
           "breakdown": [
@@ -3473,6 +3919,8 @@
           "name": "Nathan Ak\u00e9",
           "position": "D",
           "nation": "Netherlands",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/159248.png",
           "minutes": 9,
           "rating": 0.5,
           "breakdown": [
@@ -3495,12 +3943,16 @@
       "club": "Napoli",
       "league": "ita.1",
       "leagueName": "Serie A",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
       "players": [
         {
           "id": "255850",
           "name": "Scott McTominay",
           "position": "M",
           "nation": "Scotland",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/255850.png",
           "minutes": 90,
           "rating": 1.6,
           "breakdown": [
@@ -3527,6 +3979,8 @@
           "name": "Kevin De Bruyne",
           "position": "M",
           "nation": "Belgium",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/134947.png",
           "minutes": 86,
           "rating": 1.6,
           "breakdown": [
@@ -3549,6 +4003,8 @@
           "name": "Romelu Lukaku",
           "position": "F",
           "nation": "Belgium",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/139437.png",
           "minutes": 24,
           "rating": 0.9,
           "breakdown": [
@@ -3567,6 +4023,8 @@
           "name": "Math\u00edas Olivera",
           "position": "D",
           "nation": "Uruguay",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/234881.png",
           "minutes": 90,
           "rating": 0.5,
           "breakdown": [
@@ -3589,12 +4047,16 @@
       "club": "Genoa",
       "league": "ita.1",
       "leagueName": "Serie A",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
       "players": [
         {
           "id": "259975",
           "name": "Johan V\u00e1squez",
           "position": "D",
           "nation": "Mexico",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/259975.png",
           "minutes": 90,
           "rating": 4.5,
           "breakdown": [
@@ -3621,12 +4083,16 @@
       "club": "Real Oviedo",
       "league": "esp.1",
       "leagueName": "La Liga",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/92.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
       "players": [
         {
           "id": "295847",
           "name": "Federico Vi\u00f1as",
           "position": "F",
           "nation": "Uruguay",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/295847.png",
           "minutes": 90,
           "rating": 4.5,
           "breakdown": [
@@ -3657,12 +4123,16 @@
       "club": "Everton",
       "league": "eng.1",
       "leagueName": "Premier League",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
       "players": [
         {
           "id": "271191",
           "name": "Nathan Patterson",
           "position": "D",
           "nation": "Scotland",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/271191.png",
           "minutes": 15,
           "rating": 4.4,
           "breakdown": [
@@ -3693,12 +4163,16 @@
       "club": "Internazionale",
       "league": "ita.1",
       "leagueName": "Serie A",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
       "players": [
         {
           "id": "170785",
           "name": "Hakan \u00c7alhanoglu",
           "position": "M",
           "nation": "T\u00fcrkiye",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/170785.png",
           "minutes": 90,
           "rating": 2.3,
           "breakdown": [
@@ -3725,6 +4199,8 @@
           "name": "Manuel Akanji",
           "position": "D",
           "nation": "Switzerland",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/214562.png",
           "minutes": 90,
           "rating": 1.0,
           "breakdown": [
@@ -3743,6 +4219,8 @@
           "name": "Denzel Dumfries",
           "position": "D",
           "nation": "Netherlands",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/213248.png",
           "minutes": 90,
           "rating": 0.5,
           "breakdown": [
@@ -3757,6 +4235,8 @@
           "name": "Ange-Yoan Bonny",
           "position": "F",
           "nation": "Ivory Coast",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/309185.png",
           "minutes": 34,
           "rating": 0.5,
           "breakdown": [
@@ -3779,12 +4259,16 @@
       "club": "Tottenham Hotspur",
       "league": "eng.1",
       "leagueName": "Premier League",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
       "players": [
         {
           "id": "356379",
           "name": "Lucas Bergvall",
           "position": "M",
           "nation": "Sweden",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/356379.png",
           "minutes": 25,
           "rating": 4.5,
           "breakdown": [
@@ -3811,6 +4295,8 @@
           "name": "Rodrigo Bentancur",
           "position": "M",
           "nation": "Uruguay",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/215772.png",
           "minutes": 90,
           "rating": 0.5,
           "breakdown": [
@@ -3833,6 +4319,8 @@
           "name": "Micky van de Ven",
           "position": "D",
           "nation": "Netherlands",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/296512.png",
           "minutes": 90,
           "rating": -0.7,
           "breakdown": [
@@ -3863,12 +4351,16 @@
       "club": "AS Roma",
       "league": "ita.1",
       "leagueName": "Serie A",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
       "players": [
         {
           "id": "259481",
           "name": "Donyell Malen",
           "position": "F",
           "nation": "Netherlands",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/259481.png",
           "minutes": 70,
           "rating": 2.9,
           "breakdown": [
@@ -3891,6 +4383,8 @@
           "name": "Zeki \u00c7elik",
           "position": "D",
           "nation": "T\u00fcrkiye",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/271873.png",
           "minutes": 81,
           "rating": 0.9,
           "breakdown": [
@@ -3913,6 +4407,8 @@
           "name": "Neil El Aynaoui",
           "position": "M",
           "nation": "Morocco",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/323807.png",
           "minutes": 90,
           "rating": 0.4,
           "breakdown": [
@@ -3943,12 +4439,16 @@
       "club": "Sunderland",
       "league": "eng.1",
       "leagueName": "Premier League",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
       "players": [
         {
           "id": "265915",
           "name": "Wilson Isidor",
           "position": "F",
           "nation": "Haiti",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/265915.png",
           "minutes": 76,
           "rating": 0.9,
           "breakdown": [
@@ -3967,6 +4467,8 @@
           "name": "Granit Xhaka",
           "position": "M",
           "nation": "Switzerland",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/149981.png",
           "minutes": 90,
           "rating": 0.7,
           "breakdown": [
@@ -3985,6 +4487,8 @@
           "name": "Chemsdine Talbi",
           "position": "F",
           "nation": "Morocco",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/360062.png",
           "minutes": 25,
           "rating": 0.5,
           "breakdown": [
@@ -3999,6 +4503,8 @@
           "name": "Brian Brobbey",
           "position": "F",
           "nation": "Netherlands",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/282229.png",
           "minutes": 5,
           "rating": 0.5,
           "breakdown": [
@@ -4013,6 +4519,8 @@
           "name": "Nilson Angulo",
           "position": "F",
           "nation": "Ecuador",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/318090.png",
           "minutes": 34,
           "rating": 0.5,
           "breakdown": [
@@ -4027,6 +4535,8 @@
           "name": "Omar Alderete",
           "position": "D",
           "nation": "Paraguay",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/215401.png",
           "minutes": 90,
           "rating": 0.4,
           "breakdown": [
@@ -4053,12 +4563,16 @@
       "club": "Nice",
       "league": "fra.1",
       "leagueName": "Ligue 1",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
       "players": [
         {
           "id": "311118",
           "name": "Elye Wahi",
           "position": "F",
           "nation": "Ivory Coast",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/311118.png",
           "minutes": 56,
           "rating": 1.9,
           "breakdown": [
@@ -4081,6 +4595,8 @@
           "name": "Ali Abdi",
           "position": "D",
           "nation": "Tunisia",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/265234.png",
           "minutes": 90,
           "rating": 0.2,
           "breakdown": [
@@ -4107,12 +4623,16 @@
       "club": "RB Leipzig",
       "league": "ger.1",
       "leagueName": "Bundesliga",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
       "players": [
         {
           "id": "249548",
           "name": "David Raum",
           "position": "D",
           "nation": "Germany",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/249548.png",
           "minutes": 17,
           "rating": 1.0,
           "breakdown": [
@@ -4131,6 +4651,8 @@
           "name": "Yan Diomande",
           "position": "F",
           "nation": "Ivory Coast",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/402479.png",
           "minutes": 90,
           "rating": 0.9,
           "breakdown": [
@@ -4157,12 +4679,16 @@
       "club": "Real Betis",
       "league": "esp.1",
       "leagueName": "La Liga",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
       "players": [
         {
           "id": "283827",
           "name": "\u00c1lvaro Fidalgo",
           "position": "M",
           "nation": "Mexico",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/283827.png",
           "minutes": 66,
           "rating": 1.5,
           "breakdown": [
@@ -4181,6 +4707,8 @@
           "name": "Ricardo Rodr\u00edguez",
           "position": "D",
           "nation": "Switzerland",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/136865.png",
           "minutes": 89,
           "rating": 0.3,
           "breakdown": [
@@ -4207,12 +4735,16 @@
       "club": "Mainz",
       "league": "ger.1",
       "leagueName": "Bundesliga",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
       "players": [
         {
           "id": "134103",
           "name": "Lee Jae-Sung",
           "position": "M",
           "nation": "South Korea",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/134103.png",
           "minutes": 62,
           "rating": 1.3,
           "breakdown": [
@@ -4239,6 +4771,8 @@
           "name": "Kaishu Sano",
           "position": "M",
           "nation": "Japan",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/357030.png",
           "minutes": 90,
           "rating": 0.5,
           "breakdown": [
@@ -4261,12 +4795,16 @@
       "club": "Bologna",
       "league": "ita.1",
       "leagueName": "Serie A",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
       "players": [
         {
           "id": "202429",
           "name": "Lewis Ferguson",
           "position": "M",
           "nation": "Scotland",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/202429.png",
           "minutes": 90,
           "rating": 1.4,
           "breakdown": [
@@ -4289,6 +4827,8 @@
           "name": "Remo Freuler",
           "position": "M",
           "nation": "Switzerland",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/152600.png",
           "minutes": 89,
           "rating": 0.3,
           "breakdown": [
@@ -4315,12 +4855,16 @@
       "club": "Lille",
       "league": "fra.1",
       "leagueName": "Ligue 1",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
       "players": [
         {
           "id": "166473",
           "name": "Thomas Meunier",
           "position": "D",
           "nation": "Belgium",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/166473.png",
           "minutes": 90,
           "rating": 0.5,
           "breakdown": [
@@ -4343,6 +4887,8 @@
           "name": "Matias Fernandez-Pardo",
           "position": "F",
           "nation": "Belgium",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/359651.png",
           "minutes": 4,
           "rating": 0.5,
           "breakdown": [
@@ -4357,6 +4903,8 @@
           "name": "Ayyoub Bouaddi",
           "position": "M",
           "nation": "Morocco",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/373927.png",
           "minutes": 90,
           "rating": 0.4,
           "breakdown": [
@@ -4375,6 +4923,8 @@
           "name": "Nathan Ngoy",
           "position": "D",
           "nation": "Belgium",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/318577.png",
           "minutes": 90,
           "rating": 0.3,
           "breakdown": [
@@ -4401,12 +4951,16 @@
       "club": "Torino",
       "league": "ita.1",
       "leagueName": "Serie A",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
       "players": [
         {
           "id": "213725",
           "name": "Ch\u00e9 Adams",
           "position": "F",
           "nation": "Scotland",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/213725.png",
           "minutes": 75,
           "rating": 1.7,
           "breakdown": [
@@ -4437,12 +4991,16 @@
       "club": "AFC Bournemouth",
       "league": "eng.1",
       "leagueName": "Premier League",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
       "players": [
         {
           "id": "93435",
           "name": "Ryan Christie",
           "position": "M",
           "nation": "Scotland",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/93435.png",
           "minutes": 15,
           "rating": 1.4,
           "breakdown": [
@@ -4465,6 +5023,8 @@
           "name": "Ben Gannon-Doak",
           "position": "F",
           "nation": "Scotland",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/332948.png",
           "minutes": 75,
           "rating": 0.9,
           "breakdown": [
@@ -4483,6 +5043,8 @@
           "name": "Tyler Adams",
           "position": "M",
           "nation": "United States",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/222776.png",
           "minutes": 90,
           "rating": -0.7,
           "breakdown": [
@@ -4513,12 +5075,16 @@
       "club": "Marseille",
       "league": "fra.1",
       "leagueName": "Ligue 1",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
       "players": [
         {
           "id": "266027",
           "name": "Timothy Weah",
           "position": "F",
           "nation": "United States",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/266027.png",
           "minutes": 18,
           "rating": 0.9,
           "breakdown": [
@@ -4537,6 +5103,8 @@
           "name": "Quinten Timber",
           "position": "M",
           "nation": "Netherlands",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/282230.png",
           "minutes": 20,
           "rating": 0.5,
           "breakdown": [
@@ -4559,12 +5127,16 @@
       "club": "Sevilla",
       "league": "esp.1",
       "leagueName": "La Liga",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
       "players": [
         {
           "id": "259513",
           "name": "Rub\u00e9n Vargas",
           "position": "M",
           "nation": "Switzerland",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/259513.png",
           "minutes": 79,
           "rating": 1.4,
           "breakdown": [
@@ -4599,12 +5171,16 @@
       "club": "Atl\u00e9tico Madrid",
       "league": "esp.1",
       "leagueName": "La Liga",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
       "players": [
         {
           "id": "206474",
           "name": "Marcos Llorente",
           "position": "M",
           "nation": "Spain",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/206474.png",
           "minutes": 90,
           "rating": 1.4,
           "breakdown": [
@@ -4635,12 +5211,16 @@
       "club": "FC Augsburg",
       "league": "ger.1",
       "leagueName": "Bundesliga",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
       "players": [
         {
           "id": "308908",
           "name": "Fabian Rieder",
           "position": "M",
           "nation": "Switzerland",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/308908.png",
           "minutes": 25,
           "rating": 0.6,
           "breakdown": [
@@ -4659,6 +5239,8 @@
           "name": "Isma\u00ebl Gharbi",
           "position": "F",
           "nation": "Tunisia",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/317473.png",
           "minutes": 7,
           "rating": 0.5,
           "breakdown": [
@@ -4681,12 +5263,16 @@
       "club": "Werder Bremen",
       "league": "ger.1",
       "leagueName": "Bundesliga",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
       "players": [
         {
           "id": "265965",
           "name": "Yukinari Sugawara",
           "position": "D",
           "nation": "Japan",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/265965.png",
           "minutes": 15,
           "rating": 1.0,
           "breakdown": [
@@ -4713,12 +5299,16 @@
       "club": "Sassuolo",
       "league": "ita.1",
       "leagueName": "Serie A",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
       "players": [
         {
           "id": "325001",
           "name": "Isma\u00ebl Kon\u00e9",
           "position": "M",
           "nation": "Canada",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/325001.png",
           "minutes": 90,
           "rating": 0.5,
           "breakdown": [
@@ -4741,6 +5331,8 @@
           "name": "Tarik Muharemovic",
           "position": "D",
           "nation": "Bosnia-Herzegovina",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/318390.png",
           "minutes": 90,
           "rating": 0.4,
           "breakdown": [
@@ -4767,12 +5359,16 @@
       "club": "AJ Auxerre",
       "league": "fra.1",
       "leagueName": "Ligue 1",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
       "players": [
         {
           "id": "304212",
           "name": "Josu\u00e9 Casimir",
           "position": "F",
           "nation": "Haiti",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/304212.png",
           "minutes": 29,
           "rating": 0.7,
           "breakdown": [
@@ -4799,12 +5395,16 @@
       "club": "SC Freiburg",
       "league": "ger.1",
       "leagueName": "Bundesliga",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
       "players": [
         {
           "id": "386992",
           "name": "Johan Manzambi",
           "position": "M",
           "nation": "Switzerland",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/386992.png",
           "minutes": 25,
           "rating": 0.6,
           "breakdown": [
@@ -4835,12 +5435,16 @@
       "club": "Lyon",
       "league": "fra.1",
       "leagueName": "Ligue 1",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
       "players": [
         {
           "id": "305545",
           "name": "Pavel Sulc",
           "position": "M",
           "nation": "Czechia",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/305545.png",
           "minutes": 64,
           "rating": 0.5,
           "breakdown": [
@@ -4871,12 +5475,16 @@
       "club": "Girona",
       "league": "esp.1",
       "leagueName": "La Liga",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
       "players": [
         {
           "id": "291552",
           "name": "Azzedine Ounahi",
           "position": "M",
           "nation": "Morocco",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/291552.png",
           "minutes": 65,
           "rating": 0.5,
           "breakdown": [
@@ -4899,12 +5507,16 @@
       "club": "Lorient",
       "league": "fra.1",
       "leagueName": "Ligue 1",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
       "players": [
         {
           "id": "265099",
           "name": "Montassar Talbi",
           "position": "D",
           "nation": "Tunisia",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/265099.png",
           "minutes": 90,
           "rating": 0.5,
           "breakdown": [
@@ -4927,12 +5539,16 @@
       "club": "Udinese",
       "league": "ita.1",
       "leagueName": "Serie A",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
       "players": [
         {
           "id": "237055",
           "name": "Jesper Karlstr\u00f6m",
           "position": "M",
           "nation": "Sweden",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/237055.png",
           "minutes": 84,
           "rating": 0.4,
           "breakdown": [
@@ -4959,12 +5575,16 @@
       "club": "Leeds United",
       "league": "eng.1",
       "leagueName": "Premier League",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
       "players": [
         {
           "id": "250166",
           "name": "Gabriel Gudmundsson",
           "position": "D",
           "nation": "Sweden",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/250166.png",
           "minutes": 65,
           "rating": 0.3,
           "breakdown": [
@@ -4991,12 +5611,16 @@
       "club": "Lens",
       "league": "fra.1",
       "leagueName": "Ligue 1",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
       "players": [
         {
           "id": "286011",
           "name": "Saud Abdulhamid",
           "position": "D",
           "nation": "Saudi Arabia",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/286011.png",
           "minutes": 90,
           "rating": 0.3,
           "breakdown": [
@@ -5023,12 +5647,16 @@
       "club": "Angers",
       "league": "fra.1",
       "leagueName": "Ligue 1",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
       "players": [
         {
           "id": "218703",
           "name": "Carlens Arcus",
           "position": "D",
           "nation": "Haiti",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/218703.png",
           "minutes": 90,
           "rating": 0.2,
           "breakdown": [
@@ -5055,12 +5683,16 @@
       "club": "1. FC Union Berlin",
       "league": "ger.1",
       "leagueName": "Bundesliga",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
       "players": [
         {
           "id": "159152",
           "name": "Rani Khedira",
           "position": "M",
           "nation": "Tunisia",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/159152.png",
           "minutes": 83,
           "rating": -0.5,
           "breakdown": [
@@ -5095,12 +5727,16 @@
       "club": "Hamburg SV",
       "league": "ger.1",
       "leagueName": "Bundesliga",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
       "players": [
         {
           "id": "243626",
           "name": "Miro Muheim",
           "position": "D",
           "nation": "Switzerland",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/243626.png",
           "minutes": 1,
           "rating": -3.5,
           "breakdown": [
