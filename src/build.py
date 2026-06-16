@@ -2,7 +2,8 @@ import json
 import os
 from datetime import datetime, timezone
 
-from src import config
+from src import config, weights
+from src.methodology import build_methodology
 from src.rating import rate_player
 from src.aggregate import aggregate_club
 from src.mapping import build_mapping
@@ -18,12 +19,16 @@ def assemble_standings(records, generated_at):
         rated = rate_player(rec)
         player = {
             "id": rec["id"], "name": rec["name"], "position": rec["position"],
-            "nation": rec["nation"], "minutes": rec["minutes"],
+            "nation": rec["nation"], "nationFlag": rec.get("nationFlag"),
+            "headshot": rec.get("headshot"), "minutes": rec["minutes"],
             "rating": rated["rating"], "breakdown": rated["breakdown"],
         }
         club = clubs.setdefault(rec["club"], {
             "club": rec["club"], "league": rec["league"],
-            "leagueName": rec["leagueName"], "players": [],
+            "leagueName": rec["leagueName"],
+            "clubLogo": rec.get("clubLogo"),
+            "leagueLogo": config.LEAGUE_LOGOS.get(rec["league"]),
+            "players": [],
         })
         club["players"].append(player)
 
@@ -42,6 +47,7 @@ def assemble_standings(records, generated_at):
         "tournament": config.WC_LEAGUE,
         "coverage": {"playersMapped": len(records),
                      "clubs": len(club_list)},
+        "methodology": build_methodology(weights),
         "clubs": club_list,
     }
 
