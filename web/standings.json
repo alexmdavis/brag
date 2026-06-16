@@ -1,0 +1,5127 @@
+{
+  "generatedAt": "2026-06-16T15:02:00Z",
+  "season": 2025,
+  "tournament": "fifa.world",
+  "coverage": {
+    "playersMapped": 200,
+    "clubs": 70
+  },
+  "clubs": [
+    {
+      "club": "Liverpool",
+      "league": "eng.1",
+      "leagueName": "Premier League",
+      "players": [
+        {
+          "id": "235662",
+          "name": "Alexander Isak",
+          "position": "F",
+          "nation": "Sweden",
+          "minutes": 90,
+          "rating": 13.1,
+          "breakdown": [
+            {
+              "label": "Goals",
+              "points": 4.0
+            },
+            {
+              "label": "Assists",
+              "points": 6.0
+            },
+            {
+              "label": "Shots on target",
+              "points": 2.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.6
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "274632",
+          "name": "Ryan Gravenberch",
+          "position": "M",
+          "nation": "Netherlands",
+          "minutes": 81,
+          "rating": 8.5,
+          "breakdown": [
+            {
+              "label": "Assists",
+              "points": 8.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "157892",
+          "name": "Virgil van Dijk",
+          "position": "D",
+          "nation": "Netherlands",
+          "minutes": 90,
+          "rating": 7.0,
+          "breakdown": [
+            {
+              "label": "Goals",
+              "points": 6.0
+            },
+            {
+              "label": "Shots on target",
+              "points": 0.5
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "303748",
+          "name": "Florian Wirtz",
+          "position": "M",
+          "nation": "Germany",
+          "minutes": 90,
+          "rating": 4.8,
+          "breakdown": [
+            {
+              "label": "Assists",
+              "points": 4.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.3
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "173896",
+          "name": "Mohamed Salah",
+          "position": "F",
+          "nation": "Egypt",
+          "minutes": 76,
+          "rating": 4.7,
+          "breakdown": [
+            {
+              "label": "Assists",
+              "points": 3.0
+            },
+            {
+              "label": "Shots on target",
+              "points": 1.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "104943",
+          "name": "Andy Robertson",
+          "position": "D",
+          "nation": "Scotland",
+          "minutes": 90,
+          "rating": 4.3,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.2
+            },
+            {
+              "label": "Clean sheets",
+              "points": 4.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "249524",
+          "name": "Cody Gakpo",
+          "position": "F",
+          "nation": "Netherlands",
+          "minutes": 85,
+          "rating": 1.9,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 1.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.4
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "196876",
+          "name": "Alisson Becker",
+          "position": "G",
+          "nation": "Brazil",
+          "minutes": 90,
+          "rating": 1.5,
+          "breakdown": [
+            {
+              "label": "Saves",
+              "points": 2.0
+            },
+            {
+              "label": "Goals conceded",
+              "points": -1.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 45.8,
+        "average": 5.72,
+        "per90": 5.96,
+        "bestXI": 45.8
+      },
+      "playerCount": 8
+    },
+    {
+      "club": "Arsenal",
+      "league": "eng.1",
+      "leagueName": "Premier League",
+      "players": [
+        {
+          "id": "231182",
+          "name": "Kai Havertz",
+          "position": "F",
+          "nation": "Germany",
+          "minutes": 90,
+          "rating": 11.3,
+          "breakdown": [
+            {
+              "label": "Goals",
+              "points": 8.0
+            },
+            {
+              "label": "Shots on target",
+              "points": 2.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.8
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "258906",
+          "name": "Viktor Gy\u00f6keres",
+          "position": "F",
+          "nation": "Sweden",
+          "minutes": 90,
+          "rating": 10.5,
+          "breakdown": [
+            {
+              "label": "Goals",
+              "points": 4.0
+            },
+            {
+              "label": "Assists",
+              "points": 3.0
+            },
+            {
+              "label": "Shots on target",
+              "points": 2.0
+            },
+            {
+              "label": "Shots",
+              "points": 1.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "209581",
+          "name": "Mikel Merino",
+          "position": "M",
+          "nation": "Spain",
+          "minutes": 19,
+          "rating": 2.2,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 0.7
+            },
+            {
+              "label": "Shots",
+              "points": 0.1
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Clean sheets",
+              "points": 1.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "174980",
+          "name": "Leandro Trossard",
+          "position": "F",
+          "nation": "Belgium",
+          "minutes": 90,
+          "rating": 1.1,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.6
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "292062",
+          "name": "Piero Hincapi\u00e9",
+          "position": "D",
+          "nation": "Ecuador",
+          "minutes": 90,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "236322",
+          "name": "Gabriel Magalh\u00e3es",
+          "position": "D",
+          "nation": "Brazil",
+          "minutes": 90,
+          "rating": 0.4,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 26.0,
+        "average": 4.33,
+        "per90": 4.99,
+        "bestXI": 26.0
+      },
+      "playerCount": 6
+    },
+    {
+      "club": "Nottingham Forest",
+      "league": "eng.1",
+      "leagueName": "Premier League",
+      "players": [
+        {
+          "id": "134190",
+          "name": "Chris Wood",
+          "position": "F",
+          "nation": "New Zealand",
+          "minutes": 90,
+          "rating": 9.3,
+          "breakdown": [
+            {
+              "label": "Assists",
+              "points": 6.0
+            },
+            {
+              "label": "Shots on target",
+              "points": 2.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.8
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "181299",
+          "name": "Angus Gunn",
+          "position": "G",
+          "nation": "Scotland",
+          "minutes": 90,
+          "rating": 6.5,
+          "breakdown": [
+            {
+              "label": "Saves",
+              "points": 2.0
+            },
+            {
+              "label": "Clean sheets",
+              "points": 4.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "275842",
+          "name": "Dan Ndoye",
+          "position": "F",
+          "nation": "Switzerland",
+          "minutes": 65,
+          "rating": 3.7,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 2.0
+            },
+            {
+              "label": "Shots",
+              "points": 1.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "213718",
+          "name": "Ibrahim Sangar\u00e9",
+          "position": "M",
+          "nation": "Ivory Coast",
+          "minutes": 13,
+          "rating": 1.5,
+          "breakdown": [
+            {
+              "label": "Clean sheets",
+              "points": 1.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 21.0,
+        "average": 5.25,
+        "per90": 7.33,
+        "bestXI": 21.0
+      },
+      "playerCount": 4
+    },
+    {
+      "club": "Borussia Dortmund",
+      "league": "ger.1",
+      "leagueName": "Bundesliga",
+      "players": [
+        {
+          "id": "281122",
+          "name": "Felix Nmecha",
+          "position": "M",
+          "nation": "Germany",
+          "minutes": 73,
+          "rating": 7.9,
+          "breakdown": [
+            {
+              "label": "Goals",
+              "points": 5.0
+            },
+            {
+              "label": "Shots on target",
+              "points": 2.1
+            },
+            {
+              "label": "Shots",
+              "points": 0.4
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "286828",
+          "name": "Nico Schlotterbeck",
+          "position": "D",
+          "nation": "Germany",
+          "minutes": 90,
+          "rating": 7.3,
+          "breakdown": [
+            {
+              "label": "Goals",
+              "points": 6.0
+            },
+            {
+              "label": "Shots on target",
+              "points": 1.0
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "238544",
+          "name": "Gregor Kobel",
+          "position": "G",
+          "nation": "Switzerland",
+          "minutes": 90,
+          "rating": 2.5,
+          "breakdown": [
+            {
+              "label": "Saves",
+              "points": 3.0
+            },
+            {
+              "label": "Goals conceded",
+              "points": -1.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "225563",
+          "name": "Salih \u00d6zcan",
+          "position": "M",
+          "nation": "T\u00fcrkiye",
+          "minutes": 9,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "220714",
+          "name": "Waldemar Anton",
+          "position": "D",
+          "nation": "Germany",
+          "minutes": 7,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "310709",
+          "name": "Daniel Svensson",
+          "position": "D",
+          "nation": "Sweden",
+          "minutes": 1,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 19.2,
+        "average": 3.2,
+        "per90": 6.4,
+        "bestXI": 19.2
+      },
+      "playerCount": 6
+    },
+    {
+      "club": "Real Madrid",
+      "league": "esp.1",
+      "leagueName": "La Liga",
+      "players": [
+        {
+          "id": "252107",
+          "name": "Vin\u00edcius J\u00fanior",
+          "position": "F",
+          "nation": "Brazil",
+          "minutes": 90,
+          "rating": 5.7,
+          "breakdown": [
+            {
+              "label": "Goals",
+              "points": 4.0
+            },
+            {
+              "label": "Shots on target",
+              "points": 1.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "246532",
+          "name": "Brahim D\u00edaz",
+          "position": "M",
+          "nation": "Morocco",
+          "minutes": 65,
+          "rating": 5.5,
+          "breakdown": [
+            {
+              "label": "Assists",
+              "points": 4.0
+            },
+            {
+              "label": "Shots on target",
+              "points": 0.7
+            },
+            {
+              "label": "Shots",
+              "points": 0.3
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "310452",
+          "name": "Arda G\u00fcler",
+          "position": "M",
+          "nation": "T\u00fcrkiye",
+          "minutes": 90,
+          "rating": 3.4,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 2.1
+            },
+            {
+              "label": "Shots",
+              "points": 0.8
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "235818",
+          "name": "Federico Valverde",
+          "position": "M",
+          "nation": "Uruguay",
+          "minutes": 90,
+          "rating": 2.1,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 1.4
+            },
+            {
+              "label": "Shots",
+              "points": 0.3
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "134283",
+          "name": "Thibaut Courtois",
+          "position": "G",
+          "nation": "Belgium",
+          "minutes": 90,
+          "rating": 1.5,
+          "breakdown": [
+            {
+              "label": "Saves",
+              "points": 2.0
+            },
+            {
+              "label": "Goals conceded",
+              "points": -1.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "169438",
+          "name": "Antonio R\u00fcdiger",
+          "position": "D",
+          "nation": "Germany",
+          "minutes": 17,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 18.7,
+        "average": 3.12,
+        "per90": 3.81,
+        "bestXI": 18.7
+      },
+      "playerCount": 6
+    },
+    {
+      "club": "Bayern Munich",
+      "league": "ger.1",
+      "leagueName": "Bundesliga",
+      "players": [
+        {
+          "id": "190161",
+          "name": "Joshua Kimmich",
+          "position": "M",
+          "nation": "Germany",
+          "minutes": 83,
+          "rating": 8.5,
+          "breakdown": [
+            {
+              "label": "Assists",
+              "points": 8.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "303821",
+          "name": "Jamal Musiala",
+          "position": "M",
+          "nation": "Germany",
+          "minutes": 64,
+          "rating": 6.3,
+          "breakdown": [
+            {
+              "label": "Goals",
+              "points": 5.0
+            },
+            {
+              "label": "Shots on target",
+              "points": 0.7
+            },
+            {
+              "label": "Shots",
+              "points": 0.3
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "359370",
+          "name": "Aleksandar Pavlovic",
+          "position": "M",
+          "nation": "Germany",
+          "minutes": 90,
+          "rating": 0.9,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 0.7
+            },
+            {
+              "label": "Shots",
+              "points": 0.3
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.6
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "84774",
+          "name": "Manuel Neuer",
+          "position": "G",
+          "nation": "Germany",
+          "minutes": 90,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Saves",
+              "points": 1.0
+            },
+            {
+              "label": "Goals conceded",
+              "points": -1.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "174550",
+          "name": "Leon Goretzka",
+          "position": "M",
+          "nation": "Germany",
+          "minutes": 17,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "97111",
+          "name": "Hiroki Ito",
+          "position": "D",
+          "nation": "Japan",
+          "minutes": 90,
+          "rating": 0.4,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "157688",
+          "name": "Kim Min-Jae",
+          "position": "D",
+          "nation": "South Korea",
+          "minutes": 90,
+          "rating": 0.3,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "188052",
+          "name": "Jonathan Tah",
+          "position": "D",
+          "nation": "Germany",
+          "minutes": 73,
+          "rating": 0.3,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 17.7,
+        "average": 2.21,
+        "per90": 2.67,
+        "bestXI": 17.7
+      },
+      "playerCount": 8
+    },
+    {
+      "club": "Barcelona",
+      "league": "esp.1",
+      "leagueName": "La Liga",
+      "players": [
+        {
+          "id": "368992",
+          "name": "Pau Cubars\u00ed",
+          "position": "D",
+          "nation": "Spain",
+          "minutes": 90,
+          "rating": 4.5,
+          "breakdown": [
+            {
+              "label": "Clean sheets",
+              "points": 4.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "265869",
+          "name": "Ferran Torres",
+          "position": "F",
+          "nation": "Spain",
+          "minutes": 81,
+          "rating": 2.3,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 1.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.8
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "231050",
+          "name": "Raphinha",
+          "position": "F",
+          "nation": "Brazil",
+          "minutes": 90,
+          "rating": 1.9,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 1.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.4
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "227765",
+          "name": "Dani Olmo",
+          "position": "M",
+          "nation": "Spain",
+          "minutes": 9,
+          "rating": 1.5,
+          "breakdown": [
+            {
+              "label": "Clean sheets",
+              "points": 1.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "323702",
+          "name": "Gavi",
+          "position": "M",
+          "nation": "Spain",
+          "minutes": 71,
+          "rating": 1.4,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.1
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.2
+            },
+            {
+              "label": "Clean sheets",
+              "points": 1.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "250465",
+          "name": "Pedri",
+          "position": "M",
+          "nation": "Spain",
+          "minutes": 90,
+          "rating": 1.3,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 0.7
+            },
+            {
+              "label": "Shots",
+              "points": 0.2
+            },
+            {
+              "label": "Yellow cards",
+              "points": -1.0
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Clean sheets",
+              "points": 1.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "362150",
+          "name": "Lamine Yamal",
+          "position": "F",
+          "nation": "Spain",
+          "minutes": 19,
+          "rating": 0.9,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.4
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "219022",
+          "name": "Frenkie de Jong",
+          "position": "M",
+          "nation": "Netherlands",
+          "minutes": 90,
+          "rating": 0.3,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 14.1,
+        "average": 1.76,
+        "per90": 2.35,
+        "bestXI": 14.1
+      },
+      "playerCount": 8
+    },
+    {
+      "club": "Eintracht Frankfurt",
+      "league": "ger.1",
+      "leagueName": "Bundesliga",
+      "players": [
+        {
+          "id": "120829",
+          "name": "Nathaniel Brown",
+          "position": "D",
+          "nation": "Germany",
+          "minutes": 73,
+          "rating": 10.8,
+          "breakdown": [
+            {
+              "label": "Goals",
+              "points": 6.0
+            },
+            {
+              "label": "Assists",
+              "points": 4.0
+            },
+            {
+              "label": "Shots on target",
+              "points": 0.5
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "416636",
+          "name": "Ayoube Amaimouni",
+          "position": "F",
+          "nation": "Morocco",
+          "minutes": 10,
+          "rating": 1.7,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 1.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "209595",
+          "name": "Ellyes Skhiri",
+          "position": "M",
+          "nation": "Tunisia",
+          "minutes": 72,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "219627",
+          "name": "Ritsu Doan",
+          "position": "M",
+          "nation": "Japan",
+          "minutes": 75,
+          "rating": 0.4,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 13.4,
+        "average": 3.35,
+        "per90": 5.24,
+        "bestXI": 13.4
+      },
+      "playerCount": 4
+    },
+    {
+      "club": "VfB Stuttgart",
+      "league": "ger.1",
+      "leagueName": "Bundesliga",
+      "players": [
+        {
+          "id": "273300",
+          "name": "Deniz Undav",
+          "position": "F",
+          "nation": "Germany",
+          "minutes": 26,
+          "rating": 11.7,
+          "breakdown": [
+            {
+              "label": "Goals",
+              "points": 4.0
+            },
+            {
+              "label": "Assists",
+              "points": 6.0
+            },
+            {
+              "label": "Shots on target",
+              "points": 1.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "269136",
+          "name": "Ermedin Demirovic",
+          "position": "F",
+          "nation": "Bosnia-Herzegovina",
+          "minutes": 90,
+          "rating": 0.7,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 1.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.2
+            },
+            {
+              "label": "Yellow cards",
+              "points": -1.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "336595",
+          "name": "Bilal El Khannouss",
+          "position": "M",
+          "nation": "Morocco",
+          "minutes": 80,
+          "rating": 0.4,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.1
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 12.8,
+        "average": 4.27,
+        "per90": 5.88,
+        "bestXI": 12.8
+      },
+      "playerCount": 3
+    },
+    {
+      "club": "AS Monaco",
+      "league": "fra.1",
+      "leagueName": "Ligue 1",
+      "players": [
+        {
+          "id": "282643",
+          "name": "Folarin Balogun",
+          "position": "F",
+          "nation": "United States",
+          "minutes": 72,
+          "rating": 12.5,
+          "breakdown": [
+            {
+              "label": "Goals",
+              "points": 8.0
+            },
+            {
+              "label": "Shots on target",
+              "points": 3.0
+            },
+            {
+              "label": "Shots",
+              "points": 1.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "222628",
+          "name": "Denis Zakaria",
+          "position": "M",
+          "nation": "Switzerland",
+          "minutes": 90,
+          "rating": 0.3,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 0.7
+            },
+            {
+              "label": "Shots",
+              "points": 0.2
+            },
+            {
+              "label": "Yellow cards",
+              "points": -1.0
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 12.8,
+        "average": 6.4,
+        "per90": 7.11,
+        "bestXI": 12.8
+      },
+      "playerCount": 2
+    },
+    {
+      "club": "Brighton & Hove Albion",
+      "league": "eng.1",
+      "leagueName": "Premier League",
+      "players": [
+        {
+          "id": "304242",
+          "name": "Yasin Ayari",
+          "position": "M",
+          "nation": "Sweden",
+          "minutes": 90,
+          "rating": 12.0,
+          "breakdown": [
+            {
+              "label": "Goals",
+              "points": 10.0
+            },
+            {
+              "label": "Shots on target",
+              "points": 1.4
+            },
+            {
+              "label": "Shots",
+              "points": 0.2
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "282583",
+          "name": "Jan Paul van Hecke",
+          "position": "D",
+          "nation": "Netherlands",
+          "minutes": 90,
+          "rating": 1.0,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 0.5
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "238318",
+          "name": "Ferdi Kadioglu",
+          "position": "D",
+          "nation": "T\u00fcrkiye",
+          "minutes": 90,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "192278",
+          "name": "Diego G\u00f3mez",
+          "position": "M",
+          "nation": "Paraguay",
+          "minutes": 80,
+          "rating": -0.2,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.4
+            },
+            {
+              "label": "Yellow cards",
+              "points": -1.0
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "291609",
+          "name": "Bart Verbruggen",
+          "position": "G",
+          "nation": "Netherlands",
+          "minutes": 90,
+          "rating": -0.5,
+          "breakdown": [
+            {
+              "label": "Saves",
+              "points": 1.0
+            },
+            {
+              "label": "Goals conceded",
+              "points": -2.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "301327",
+          "name": "Maxim De Cuyper",
+          "position": "D",
+          "nation": "Belgium",
+          "minutes": 34,
+          "rating": -0.7,
+          "breakdown": [
+            {
+              "label": "Yellow cards",
+              "points": -1.0
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 12.1,
+        "average": 2.02,
+        "per90": 2.3,
+        "bestXI": 12.1
+      },
+      "playerCount": 6
+    },
+    {
+      "club": "Athletic Club",
+      "league": "esp.1",
+      "leagueName": "La Liga",
+      "players": [
+        {
+          "id": "222375",
+          "name": "Unai Sim\u00f3n",
+          "position": "G",
+          "nation": "Spain",
+          "minutes": 90,
+          "rating": 5.5,
+          "breakdown": [
+            {
+              "label": "Saves",
+              "points": 1.0
+            },
+            {
+              "label": "Clean sheets",
+              "points": 4.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "159317",
+          "name": "Aymeric Laporte",
+          "position": "D",
+          "nation": "Spain",
+          "minutes": 90,
+          "rating": 5.0,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 0.5
+            },
+            {
+              "label": "Clean sheets",
+              "points": 4.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "312146",
+          "name": "Nico Williams",
+          "position": "F",
+          "nation": "Spain",
+          "minutes": 3,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 11.0,
+        "average": 3.67,
+        "per90": 5.41,
+        "bestXI": 11.0
+      },
+      "playerCount": 3
+    },
+    {
+      "club": "Atalanta",
+      "league": "ita.1",
+      "leagueName": "Serie A",
+      "players": [
+        {
+          "id": "284822",
+          "name": "Odilon Kossounou",
+          "position": "D",
+          "nation": "Ivory Coast",
+          "minutes": 1,
+          "rating": 4.5,
+          "breakdown": [
+            {
+              "label": "Clean sheets",
+              "points": 4.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "170553",
+          "name": "Sead Kolasinac",
+          "position": "D",
+          "nation": "Bosnia-Herzegovina",
+          "minutes": 84,
+          "rating": 4.2,
+          "breakdown": [
+            {
+              "label": "Assists",
+              "points": 4.0
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.3
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "296319",
+          "name": "Charles De Ketelaere",
+          "position": "F",
+          "nation": "Belgium",
+          "minutes": 66,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "312862",
+          "name": "Isak Hien",
+          "position": "D",
+          "nation": "Sweden",
+          "minutes": 90,
+          "rating": 0.4,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 9.6,
+        "average": 2.4,
+        "per90": 3.59,
+        "bestXI": 9.6
+      },
+      "playerCount": 4
+    },
+    {
+      "club": "St. Pauli",
+      "league": "ger.1",
+      "leagueName": "Bundesliga",
+      "players": [
+        {
+          "id": "260643",
+          "name": "Connor Metcalfe",
+          "position": "M",
+          "nation": "Australia",
+          "minutes": 90,
+          "rating": 7.3,
+          "breakdown": [
+            {
+              "label": "Goals",
+              "points": 5.0
+            },
+            {
+              "label": "Shots on target",
+              "points": 0.7
+            },
+            {
+              "label": "Shots",
+              "points": 0.1
+            },
+            {
+              "label": "Clean sheets",
+              "points": 1.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "178071",
+          "name": "Jackson Irvine",
+          "position": "M",
+          "nation": "Australia",
+          "minutes": 6,
+          "rating": 1.4,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Clean sheets",
+              "points": 1.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "79941",
+          "name": "Nikola Vasilj",
+          "position": "G",
+          "nation": "Bosnia-Herzegovina",
+          "minutes": 90,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Saves",
+              "points": 1.0
+            },
+            {
+              "label": "Goals conceded",
+              "points": -1.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 9.2,
+        "average": 3.07,
+        "per90": 4.45,
+        "bestXI": 9.2
+      },
+      "playerCount": 3
+    },
+    {
+      "club": "Paris Saint-Germain",
+      "league": "fra.1",
+      "leagueName": "Ligue 1",
+      "players": [
+        {
+          "id": "274197",
+          "name": "Lee Kang-In",
+          "position": "M",
+          "nation": "South Korea",
+          "minutes": 90,
+          "rating": 5.3,
+          "breakdown": [
+            {
+              "label": "Assists",
+              "points": 4.0
+            },
+            {
+              "label": "Shots on target",
+              "points": 0.7
+            },
+            {
+              "label": "Shots",
+              "points": 0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "214596",
+          "name": "Fabi\u00e1n Ruiz",
+          "position": "M",
+          "nation": "Spain",
+          "minutes": 71,
+          "rating": 2.7,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 0.7
+            },
+            {
+              "label": "Shots",
+              "points": 0.5
+            },
+            {
+              "label": "Clean sheets",
+              "points": 1.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "159047",
+          "name": "Marquinhos",
+          "position": "D",
+          "nation": "Brazil",
+          "minutes": 90,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "287005",
+          "name": "Willian Pacho",
+          "position": "D",
+          "nation": "Ecuador",
+          "minutes": 90,
+          "rating": 0.4,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "240233",
+          "name": "Achraf Hakimi",
+          "position": "D",
+          "nation": "Morocco",
+          "minutes": 90,
+          "rating": 0.2,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.3
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 9.1,
+        "average": 1.82,
+        "per90": 1.9,
+        "bestXI": 9.1
+      },
+      "playerCount": 5
+    },
+    {
+      "club": "Aston Villa",
+      "league": "eng.1",
+      "leagueName": "Premier League",
+      "players": [
+        {
+          "id": "162843",
+          "name": "John McGinn",
+          "position": "M",
+          "nation": "Scotland",
+          "minutes": 83,
+          "rating": 7.4,
+          "breakdown": [
+            {
+              "label": "Goals",
+              "points": 5.0
+            },
+            {
+              "label": "Shots on target",
+              "points": 0.7
+            },
+            {
+              "label": "Shots",
+              "points": 0.2
+            },
+            {
+              "label": "Clean sheets",
+              "points": 1.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "193297",
+          "name": "Youri Tielemans",
+          "position": "M",
+          "nation": "Belgium",
+          "minutes": 90,
+          "rating": 0.6,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.2
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "304799",
+          "name": "Amadou Onana",
+          "position": "M",
+          "nation": "Belgium",
+          "minutes": 56,
+          "rating": 0.4,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "204679",
+          "name": "Victor Lindel\u00f6f",
+          "position": "D",
+          "nation": "Sweden",
+          "minutes": 90,
+          "rating": 0.3,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 8.7,
+        "average": 2.18,
+        "per90": 2.45,
+        "bestXI": 8.7
+      },
+      "playerCount": 4
+    },
+    {
+      "club": "Manchester United",
+      "league": "eng.1",
+      "leagueName": "Premier League",
+      "players": [
+        {
+          "id": "291630",
+          "name": "Amad Diallo",
+          "position": "F",
+          "nation": "Ivory Coast",
+          "minutes": 34,
+          "rating": 6.9,
+          "breakdown": [
+            {
+              "label": "Goals",
+              "points": 4.0
+            },
+            {
+              "label": "Shots on target",
+              "points": 2.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.4
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "241468",
+          "name": "Manuel Ugarte",
+          "position": "M",
+          "nation": "Uruguay",
+          "minutes": 72,
+          "rating": 1.4,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 0.7
+            },
+            {
+              "label": "Shots",
+              "points": 0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "259902",
+          "name": "Matheus Cunha",
+          "position": "F",
+          "nation": "Brazil",
+          "minutes": 29,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "239350",
+          "name": "Noussair Mazraoui",
+          "position": "D",
+          "nation": "Morocco",
+          "minutes": 80,
+          "rating": 0.3,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "173666",
+          "name": "Casemiro",
+          "position": "M",
+          "nation": "Brazil",
+          "minutes": 45,
+          "rating": -0.6,
+          "breakdown": [
+            {
+              "label": "Yellow cards",
+              "points": -1.0
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 8.5,
+        "average": 1.7,
+        "per90": 2.94,
+        "bestXI": 8.5
+      },
+      "playerCount": 5
+    },
+    {
+      "club": "Strasbourg",
+      "league": "fra.1",
+      "leagueName": "Ligue 1",
+      "players": [
+        {
+          "id": "20975",
+          "name": "Julio Enciso",
+          "position": "M",
+          "nation": "Paraguay",
+          "minutes": 90,
+          "rating": 4.7,
+          "breakdown": [
+            {
+              "label": "Assists",
+              "points": 4.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "346636",
+          "name": "Guela Dou\u00e9",
+          "position": "D",
+          "nation": "Ivory Coast",
+          "minutes": 89,
+          "rating": 3.2,
+          "breakdown": [
+            {
+              "label": "Yellow cards",
+              "points": -1.0
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.3
+            },
+            {
+              "label": "Clean sheets",
+              "points": 4.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "378491",
+          "name": "Samir El Mourabet",
+          "position": "M",
+          "nation": "Morocco",
+          "minutes": 25,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 8.4,
+        "average": 2.8,
+        "per90": 3.71,
+        "bestXI": 8.4
+      },
+      "playerCount": 3
+    },
+    {
+      "club": "Villarreal",
+      "league": "esp.1",
+      "leagueName": "La Liga",
+      "players": [
+        {
+          "id": "248276",
+          "name": "Alex Freeman",
+          "position": "D",
+          "nation": "United States",
+          "minutes": 90,
+          "rating": 4.4,
+          "breakdown": [
+            {
+              "label": "Assists",
+              "points": 4.0
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "294039",
+          "name": "Tani Oluwaseyi",
+          "position": "F",
+          "nation": "Canada",
+          "minutes": 76,
+          "rating": 1.9,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 1.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.4
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "210397",
+          "name": "Nicolas P\u00e9p\u00e9",
+          "position": "F",
+          "nation": "Ivory Coast",
+          "minutes": 77,
+          "rating": 0.9,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.4
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "284769",
+          "name": "Tajon Buchanan",
+          "position": "F",
+          "nation": "Canada",
+          "minutes": 61,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 7.7,
+        "average": 1.93,
+        "per90": 2.28,
+        "bestXI": 7.7
+      },
+      "playerCount": 4
+    },
+    {
+      "club": "Fulham",
+      "league": "eng.1",
+      "leagueName": "Premier League",
+      "players": [
+        {
+          "id": "167060",
+          "name": "Ra\u00fal Jim\u00e9nez",
+          "position": "F",
+          "nation": "Mexico",
+          "minutes": 76,
+          "rating": 7.3,
+          "breakdown": [
+            {
+              "label": "Goals",
+              "points": 4.0
+            },
+            {
+              "label": "Shots on target",
+              "points": 2.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.8
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "230963",
+          "name": "Issa Diop",
+          "position": "D",
+          "nation": "Morocco",
+          "minutes": 90,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "222396",
+          "name": "Antonee Robinson",
+          "position": "D",
+          "nation": "United States",
+          "minutes": 90,
+          "rating": 0.4,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "197163",
+          "name": "Timothy Castagne",
+          "position": "D",
+          "nation": "Belgium",
+          "minutes": 56,
+          "rating": -0.6,
+          "breakdown": [
+            {
+              "label": "Yellow cards",
+              "points": -1.0
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 7.6,
+        "average": 1.9,
+        "per90": 2.19,
+        "bestXI": 7.6
+      },
+      "playerCount": 4
+    },
+    {
+      "club": "Crystal Palace",
+      "league": "eng.1",
+      "leagueName": "Premier League",
+      "players": [
+        {
+          "id": "219362",
+          "name": "Daichi Kamada",
+          "position": "M",
+          "nation": "Japan",
+          "minutes": 90,
+          "rating": 6.3,
+          "breakdown": [
+            {
+              "label": "Goals",
+              "points": 5.0
+            },
+            {
+              "label": "Shots on target",
+              "points": 0.7
+            },
+            {
+              "label": "Shots",
+              "points": 0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "307870",
+          "name": "Chadi Riad",
+          "position": "D",
+          "nation": "Morocco",
+          "minutes": 90,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "272585",
+          "name": "Chris Richards",
+          "position": "D",
+          "nation": "United States",
+          "minutes": 90,
+          "rating": 0.2,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.3
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 7.0,
+        "average": 2.33,
+        "per90": 2.33,
+        "bestXI": 7.0
+      },
+      "playerCount": 3
+    },
+    {
+      "club": "Wolverhampton Wanderers",
+      "league": "eng.1",
+      "leagueName": "Premier League",
+      "players": [
+        {
+          "id": "151714",
+          "name": "Ladislav Krejc\u00ed",
+          "position": "D",
+          "nation": "Czechia",
+          "minutes": 90,
+          "rating": 6.7,
+          "breakdown": [
+            {
+              "label": "Goals",
+              "points": 6.0
+            },
+            {
+              "label": "Shots on target",
+              "points": 0.5
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.3
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "237224",
+          "name": "Hwang Hee-Chan",
+          "position": "F",
+          "nation": "South Korea",
+          "minutes": 28,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "240369",
+          "name": "Jean-Ricner Bellegarde",
+          "position": "M",
+          "nation": "Haiti",
+          "minutes": 90,
+          "rating": -0.3,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.3
+            },
+            {
+              "label": "Yellow cards",
+              "points": -1.0
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 6.9,
+        "average": 2.3,
+        "per90": 2.99,
+        "bestXI": 6.9
+      },
+      "playerCount": 3
+    },
+    {
+      "club": "Parma",
+      "league": "ita.1",
+      "leagueName": "Serie A",
+      "players": [
+        {
+          "id": "332081",
+          "name": "Alessandro Circati",
+          "position": "D",
+          "nation": "Australia",
+          "minutes": 90,
+          "rating": 4.4,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Clean sheets",
+              "points": 4.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "265958",
+          "name": "Zion Suzuki",
+          "position": "G",
+          "nation": "Japan",
+          "minutes": 90,
+          "rating": 2.5,
+          "breakdown": [
+            {
+              "label": "Saves",
+              "points": 4.0
+            },
+            {
+              "label": "Goals conceded",
+              "points": -2.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 6.9,
+        "average": 3.45,
+        "per90": 3.45,
+        "bestXI": 6.9
+      },
+      "playerCount": 2
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "league": "ger.1",
+      "leagueName": "Bundesliga",
+      "players": [
+        {
+          "id": "191209",
+          "name": "Vladim\u00edr Coufal",
+          "position": "D",
+          "nation": "Czechia",
+          "minutes": 90,
+          "rating": 4.2,
+          "breakdown": [
+            {
+              "label": "Assists",
+              "points": 4.0
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.3
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "292169",
+          "name": "Adam Hlozek",
+          "position": "F",
+          "nation": "Czechia",
+          "minutes": 26,
+          "rating": 1.9,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 1.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.4
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "359108",
+          "name": "Bazoumana Tour\u00e9",
+          "position": "F",
+          "nation": "Ivory Coast",
+          "minutes": 56,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "322510",
+          "name": "Robin Hran\u00e1c",
+          "position": "D",
+          "nation": "Czechia",
+          "minutes": 90,
+          "rating": 0.2,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.3
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 6.8,
+        "average": 1.7,
+        "per90": 2.34,
+        "bestXI": 6.8
+      },
+      "playerCount": 4
+    },
+    {
+      "club": "Bayer Leverkusen",
+      "league": "ger.1",
+      "leagueName": "Bundesliga",
+      "players": [
+        {
+          "id": "301416",
+          "name": "Malik Tillman",
+          "position": "M",
+          "nation": "United States",
+          "minutes": 82,
+          "rating": 6.3,
+          "breakdown": [
+            {
+              "label": "Assists",
+              "points": 4.0
+            },
+            {
+              "label": "Shots on target",
+              "points": 1.4
+            },
+            {
+              "label": "Shots",
+              "points": 0.5
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "212330",
+          "name": "Patrik Schick",
+          "position": "F",
+          "nation": "Czechia",
+          "minutes": 64,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 6.8,
+        "average": 3.4,
+        "per90": 4.19,
+        "bestXI": 6.8
+      },
+      "playerCount": 2
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "league": "ger.1",
+      "leagueName": "Bundesliga",
+      "players": [
+        {
+          "id": "220120",
+          "name": "Mattias Svanberg",
+          "position": "M",
+          "nation": "Sweden",
+          "minutes": 6,
+          "rating": 6.3,
+          "breakdown": [
+            {
+              "label": "Goals",
+              "points": 5.0
+            },
+            {
+              "label": "Shots on target",
+              "points": 0.7
+            },
+            {
+              "label": "Shots",
+              "points": 0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "362959",
+          "name": "Kento Shiogai",
+          "position": "F",
+          "nation": "Japan",
+          "minutes": 6,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 6.8,
+        "average": 3.4,
+        "per90": 51.0,
+        "bestXI": 6.8
+      },
+      "playerCount": 2
+    },
+    {
+      "club": "Borussia M\u00f6nchengladbach",
+      "league": "ger.1",
+      "leagueName": "Bundesliga",
+      "players": [
+        {
+          "id": "290230",
+          "name": "Giovanni Reyna",
+          "position": "M",
+          "nation": "United States",
+          "minutes": 8,
+          "rating": 6.2,
+          "breakdown": [
+            {
+              "label": "Goals",
+              "points": 5.0
+            },
+            {
+              "label": "Shots on target",
+              "points": 0.7
+            },
+            {
+              "label": "Shots",
+              "points": 0.1
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "212237",
+          "name": "Nico Elvedi",
+          "position": "D",
+          "nation": "Switzerland",
+          "minutes": 90,
+          "rating": 0.3,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 6.5,
+        "average": 3.25,
+        "per90": 5.97,
+        "bestXI": 6.5
+      },
+      "playerCount": 2
+    },
+    {
+      "club": "Stade Rennais",
+      "league": "fra.1",
+      "leagueName": "Ligue 1",
+      "players": [
+        {
+          "id": "202099",
+          "name": "Breel Embolo",
+          "position": "F",
+          "nation": "Switzerland",
+          "minutes": 90,
+          "rating": 6.3,
+          "breakdown": [
+            {
+              "label": "Goals",
+              "points": 4.0
+            },
+            {
+              "label": "Shots on target",
+              "points": 1.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.8
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 6.3,
+        "average": 6.3,
+        "per90": 6.3,
+        "bestXI": 6.3
+      },
+      "playerCount": 1
+    },
+    {
+      "club": "Real Sociedad",
+      "league": "esp.1",
+      "leagueName": "La Liga",
+      "players": [
+        {
+          "id": "256587",
+          "name": "Takefusa Kubo",
+          "position": "F",
+          "nation": "Japan",
+          "minutes": 75,
+          "rating": 3.7,
+          "breakdown": [
+            {
+              "label": "Assists",
+              "points": 3.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "229018",
+          "name": "Mikel Oyarzabal",
+          "position": "F",
+          "nation": "Spain",
+          "minutes": 90,
+          "rating": 2.5,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 1.0
+            },
+            {
+              "label": "Shots",
+              "points": 1.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 6.2,
+        "average": 3.1,
+        "per90": 3.38,
+        "bestXI": 6.2
+      },
+      "playerCount": 2
+    },
+    {
+      "club": "Burnley",
+      "league": "eng.1",
+      "leagueName": "Premier League",
+      "players": [
+        {
+          "id": "300007",
+          "name": "Hannibal Mejbri",
+          "position": "M",
+          "nation": "Tunisia",
+          "minutes": 90,
+          "rating": 4.6,
+          "breakdown": [
+            {
+              "label": "Assists",
+              "points": 4.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "264751",
+          "name": "Lyle Foster",
+          "position": "F",
+          "nation": "South Africa",
+          "minutes": 56,
+          "rating": 0.7,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "320757",
+          "name": "Zeki Amdouni",
+          "position": "F",
+          "nation": "Switzerland",
+          "minutes": 11,
+          "rating": 0.7,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 6.0,
+        "average": 2.0,
+        "per90": 3.44,
+        "bestXI": 6.0
+      },
+      "playerCount": 3
+    },
+    {
+      "club": "West Ham United",
+      "league": "eng.1",
+      "leagueName": "Premier League",
+      "players": [
+        {
+          "id": "284792",
+          "name": "Crysencio Summerville",
+          "position": "F",
+          "nation": "Netherlands",
+          "minutes": 70,
+          "rating": 4.7,
+          "breakdown": [
+            {
+              "label": "Goals",
+              "points": 4.0
+            },
+            {
+              "label": "Shots on target",
+              "points": 1.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.2
+            },
+            {
+              "label": "Yellow cards",
+              "points": -1.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "230666",
+          "name": "Tom\u00e1s Soucek",
+          "position": "M",
+          "nation": "Czechia",
+          "minutes": 90,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.1
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 5.2,
+        "average": 2.6,
+        "per90": 2.93,
+        "bestXI": 5.2
+      },
+      "playerCount": 2
+    },
+    {
+      "club": "Brentford",
+      "league": "eng.1",
+      "leagueName": "Premier League",
+      "players": [
+        {
+          "id": "283940",
+          "name": "Aaron Hickey",
+          "position": "D",
+          "nation": "Scotland",
+          "minutes": 75,
+          "rating": 3.3,
+          "breakdown": [
+            {
+              "label": "Yellow cards",
+              "points": -1.0
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.2
+            },
+            {
+              "label": "Clean sheets",
+              "points": 4.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "301894",
+          "name": "Igor Thiago",
+          "position": "F",
+          "nation": "Brazil",
+          "minutes": 62,
+          "rating": 1.9,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 1.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.4
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 5.2,
+        "average": 2.6,
+        "per90": 3.42,
+        "bestXI": 5.2
+      },
+      "playerCount": 2
+    },
+    {
+      "club": "Chelsea",
+      "league": "eng.1",
+      "leagueName": "Premier League",
+      "players": [
+        {
+          "id": "259910",
+          "name": "Marc Cucurella",
+          "position": "D",
+          "nation": "Spain",
+          "minutes": 90,
+          "rating": 4.9,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 0.5
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Clean sheets",
+              "points": 4.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "289877",
+          "name": "Mois\u00e9s Caicedo",
+          "position": "M",
+          "nation": "Ecuador",
+          "minutes": 90,
+          "rating": 0.3,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.1
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.3
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 5.2,
+        "average": 2.6,
+        "per90": 2.6,
+        "bestXI": 5.2
+      },
+      "playerCount": 2
+    },
+    {
+      "club": "AC Milan",
+      "league": "ita.1",
+      "leagueName": "Serie A",
+      "players": [
+        {
+          "id": "225607",
+          "name": "Christian Pulisic",
+          "position": "M",
+          "nation": "United States",
+          "minutes": 45,
+          "rating": 4.4,
+          "breakdown": [
+            {
+              "label": "Assists",
+              "points": 4.0
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "303973",
+          "name": "Ardon Jashari",
+          "position": "M",
+          "nation": "Switzerland",
+          "minutes": 1,
+          "rating": 0.6,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 5.0,
+        "average": 2.5,
+        "per90": 9.78,
+        "bestXI": 5.0
+      },
+      "playerCount": 2
+    },
+    {
+      "club": "Newcastle United",
+      "league": "eng.1",
+      "leagueName": "Premier League",
+      "players": [
+        {
+          "id": "218522",
+          "name": "Bruno Guimar\u00e3es",
+          "position": "M",
+          "nation": "Brazil",
+          "minutes": 80,
+          "rating": 4.5,
+          "breakdown": [
+            {
+              "label": "Assists",
+              "points": 4.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.1
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "296622",
+          "name": "Anthony Elanga",
+          "position": "F",
+          "nation": "Sweden",
+          "minutes": 1,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 5.0,
+        "average": 2.5,
+        "per90": 5.56,
+        "bestXI": 5.0
+      },
+      "playerCount": 2
+    },
+    {
+      "club": "Juventus",
+      "league": "ita.1",
+      "leagueName": "Serie A",
+      "players": [
+        {
+          "id": "273499",
+          "name": "Jonathan David",
+          "position": "F",
+          "nation": "Canada",
+          "minutes": 61,
+          "rating": 2.1,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 1.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.6
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "366509",
+          "name": "Kenan Yildiz",
+          "position": "F",
+          "nation": "T\u00fcrkiye",
+          "minutes": 45,
+          "rating": 1.7,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 1.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "258968",
+          "name": "Teun Koopmeiners",
+          "position": "M",
+          "nation": "Netherlands",
+          "minutes": 20,
+          "rating": 0.6,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.2
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "256715",
+          "name": "Weston McKennie",
+          "position": "M",
+          "nation": "United States",
+          "minutes": 90,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 4.9,
+        "average": 1.23,
+        "per90": 2.04,
+        "bestXI": 4.9
+      },
+      "playerCount": 4
+    },
+    {
+      "club": "Manchester City",
+      "league": "eng.1",
+      "leagueName": "Premier League",
+      "players": [
+        {
+          "id": "231828",
+          "name": "Rodri",
+          "position": "M",
+          "nation": "Spain",
+          "minutes": 87,
+          "rating": 1.6,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.2
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Clean sheets",
+              "points": 1.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "303745",
+          "name": "Omar Marmoush",
+          "position": "F",
+          "nation": "Egypt",
+          "minutes": 90,
+          "rating": 1.5,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 1.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "283672",
+          "name": "J\u00e9r\u00e9my Doku",
+          "position": "F",
+          "nation": "Belgium",
+          "minutes": 86,
+          "rating": 0.7,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "261328",
+          "name": "Tijjani Reijnders",
+          "position": "M",
+          "nation": "Netherlands",
+          "minutes": 70,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "159248",
+          "name": "Nathan Ak\u00e9",
+          "position": "D",
+          "nation": "Netherlands",
+          "minutes": 9,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 4.8,
+        "average": 0.96,
+        "per90": 1.26,
+        "bestXI": 4.8
+      },
+      "playerCount": 5
+    },
+    {
+      "club": "Napoli",
+      "league": "ita.1",
+      "leagueName": "Serie A",
+      "players": [
+        {
+          "id": "255850",
+          "name": "Scott McTominay",
+          "position": "M",
+          "nation": "Scotland",
+          "minutes": 90,
+          "rating": 1.6,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.2
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Clean sheets",
+              "points": 1.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "134947",
+          "name": "Kevin De Bruyne",
+          "position": "M",
+          "nation": "Belgium",
+          "minutes": 86,
+          "rating": 1.6,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 0.7
+            },
+            {
+              "label": "Shots",
+              "points": 0.4
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "139437",
+          "name": "Romelu Lukaku",
+          "position": "F",
+          "nation": "Belgium",
+          "minutes": 24,
+          "rating": 0.9,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.4
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "234881",
+          "name": "Math\u00edas Olivera",
+          "position": "D",
+          "nation": "Uruguay",
+          "minutes": 90,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 4.6,
+        "average": 1.15,
+        "per90": 1.43,
+        "bestXI": 4.6
+      },
+      "playerCount": 4
+    },
+    {
+      "club": "Genoa",
+      "league": "ita.1",
+      "leagueName": "Serie A",
+      "players": [
+        {
+          "id": "259975",
+          "name": "Johan V\u00e1squez",
+          "position": "D",
+          "nation": "Mexico",
+          "minutes": 90,
+          "rating": 4.5,
+          "breakdown": [
+            {
+              "label": "Clean sheets",
+              "points": 4.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 4.5,
+        "average": 4.5,
+        "per90": 4.5,
+        "bestXI": 4.5
+      },
+      "playerCount": 1
+    },
+    {
+      "club": "Real Oviedo",
+      "league": "esp.1",
+      "leagueName": "La Liga",
+      "players": [
+        {
+          "id": "295847",
+          "name": "Federico Vi\u00f1as",
+          "position": "F",
+          "nation": "Uruguay",
+          "minutes": 90,
+          "rating": 4.5,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 3.0
+            },
+            {
+              "label": "Shots",
+              "points": 1.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 4.5,
+        "average": 4.5,
+        "per90": 4.5,
+        "bestXI": 4.5
+      },
+      "playerCount": 1
+    },
+    {
+      "club": "Everton",
+      "league": "eng.1",
+      "leagueName": "Premier League",
+      "players": [
+        {
+          "id": "271191",
+          "name": "Nathan Patterson",
+          "position": "D",
+          "nation": "Scotland",
+          "minutes": 15,
+          "rating": 4.4,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Clean sheets",
+              "points": 4.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 4.4,
+        "average": 4.4,
+        "per90": 26.4,
+        "bestXI": 4.4
+      },
+      "playerCount": 1
+    },
+    {
+      "club": "Internazionale",
+      "league": "ita.1",
+      "leagueName": "Serie A",
+      "players": [
+        {
+          "id": "170785",
+          "name": "Hakan \u00c7alhanoglu",
+          "position": "M",
+          "nation": "T\u00fcrkiye",
+          "minutes": 90,
+          "rating": 2.3,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 1.4
+            },
+            {
+              "label": "Shots",
+              "points": 0.5
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "214562",
+          "name": "Manuel Akanji",
+          "position": "D",
+          "nation": "Switzerland",
+          "minutes": 90,
+          "rating": 1.0,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 0.5
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "213248",
+          "name": "Denzel Dumfries",
+          "position": "D",
+          "nation": "Netherlands",
+          "minutes": 90,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "309185",
+          "name": "Ange-Yoan Bonny",
+          "position": "F",
+          "nation": "Ivory Coast",
+          "minutes": 34,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 4.3,
+        "average": 1.07,
+        "per90": 1.27,
+        "bestXI": 4.3
+      },
+      "playerCount": 4
+    },
+    {
+      "club": "Tottenham Hotspur",
+      "league": "eng.1",
+      "leagueName": "Premier League",
+      "players": [
+        {
+          "id": "356379",
+          "name": "Lucas Bergvall",
+          "position": "M",
+          "nation": "Sweden",
+          "minutes": 25,
+          "rating": 4.5,
+          "breakdown": [
+            {
+              "label": "Assists",
+              "points": 4.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.1
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "215772",
+          "name": "Rodrigo Bentancur",
+          "position": "M",
+          "nation": "Uruguay",
+          "minutes": 90,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.1
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "296512",
+          "name": "Micky van de Ven",
+          "position": "D",
+          "nation": "Netherlands",
+          "minutes": 90,
+          "rating": -0.7,
+          "breakdown": [
+            {
+              "label": "Yellow cards",
+              "points": -1.0
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 4.3,
+        "average": 1.43,
+        "per90": 1.89,
+        "bestXI": 4.3
+      },
+      "playerCount": 3
+    },
+    {
+      "club": "AS Roma",
+      "league": "ita.1",
+      "leagueName": "Serie A",
+      "players": [
+        {
+          "id": "259481",
+          "name": "Donyell Malen",
+          "position": "F",
+          "nation": "Netherlands",
+          "minutes": 70,
+          "rating": 2.9,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 2.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.4
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "271873",
+          "name": "Zeki \u00c7elik",
+          "position": "D",
+          "nation": "T\u00fcrkiye",
+          "minutes": 81,
+          "rating": 0.9,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 0.5
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "323807",
+          "name": "Neil El Aynaoui",
+          "position": "M",
+          "nation": "Morocco",
+          "minutes": 90,
+          "rating": 0.4,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.3
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.4
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 4.2,
+        "average": 1.4,
+        "per90": 1.57,
+        "bestXI": 4.2
+      },
+      "playerCount": 3
+    },
+    {
+      "club": "Sunderland",
+      "league": "eng.1",
+      "leagueName": "Premier League",
+      "players": [
+        {
+          "id": "265915",
+          "name": "Wilson Isidor",
+          "position": "F",
+          "nation": "Haiti",
+          "minutes": 76,
+          "rating": 0.9,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.4
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "149981",
+          "name": "Granit Xhaka",
+          "position": "M",
+          "nation": "Switzerland",
+          "minutes": 90,
+          "rating": 0.7,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "360062",
+          "name": "Chemsdine Talbi",
+          "position": "F",
+          "nation": "Morocco",
+          "minutes": 25,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "282229",
+          "name": "Brian Brobbey",
+          "position": "F",
+          "nation": "Netherlands",
+          "minutes": 5,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "318090",
+          "name": "Nilson Angulo",
+          "position": "F",
+          "nation": "Ecuador",
+          "minutes": 34,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "215401",
+          "name": "Omar Alderete",
+          "position": "D",
+          "nation": "Paraguay",
+          "minutes": 90,
+          "rating": 0.4,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 3.5,
+        "average": 0.58,
+        "per90": 0.98,
+        "bestXI": 3.5
+      },
+      "playerCount": 6
+    },
+    {
+      "club": "Nice",
+      "league": "fra.1",
+      "leagueName": "Ligue 1",
+      "players": [
+        {
+          "id": "311118",
+          "name": "Elye Wahi",
+          "position": "F",
+          "nation": "Ivory Coast",
+          "minutes": 56,
+          "rating": 1.9,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 1.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.4
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "265234",
+          "name": "Ali Abdi",
+          "position": "D",
+          "nation": "Tunisia",
+          "minutes": 90,
+          "rating": 0.2,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.3
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 2.1,
+        "average": 1.05,
+        "per90": 1.29,
+        "bestXI": 2.1
+      },
+      "playerCount": 2
+    },
+    {
+      "club": "RB Leipzig",
+      "league": "ger.1",
+      "leagueName": "Bundesliga",
+      "players": [
+        {
+          "id": "249548",
+          "name": "David Raum",
+          "position": "D",
+          "nation": "Germany",
+          "minutes": 17,
+          "rating": 1.0,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 0.5
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "402479",
+          "name": "Yan Diomande",
+          "position": "F",
+          "nation": "Ivory Coast",
+          "minutes": 90,
+          "rating": 0.9,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.4
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 1.9,
+        "average": 0.95,
+        "per90": 1.6,
+        "bestXI": 1.9
+      },
+      "playerCount": 2
+    },
+    {
+      "club": "Real Betis",
+      "league": "esp.1",
+      "leagueName": "La Liga",
+      "players": [
+        {
+          "id": "283827",
+          "name": "\u00c1lvaro Fidalgo",
+          "position": "M",
+          "nation": "Mexico",
+          "minutes": 66,
+          "rating": 1.5,
+          "breakdown": [
+            {
+              "label": "Clean sheets",
+              "points": 1.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "136865",
+          "name": "Ricardo Rodr\u00edguez",
+          "position": "D",
+          "nation": "Switzerland",
+          "minutes": 89,
+          "rating": 0.3,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 1.8,
+        "average": 0.9,
+        "per90": 1.05,
+        "bestXI": 1.8
+      },
+      "playerCount": 2
+    },
+    {
+      "club": "Mainz",
+      "league": "ger.1",
+      "leagueName": "Bundesliga",
+      "players": [
+        {
+          "id": "134103",
+          "name": "Lee Jae-Sung",
+          "position": "M",
+          "nation": "South Korea",
+          "minutes": 62,
+          "rating": 1.3,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 0.7
+            },
+            {
+              "label": "Shots",
+              "points": 0.2
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "357030",
+          "name": "Kaishu Sano",
+          "position": "M",
+          "nation": "Japan",
+          "minutes": 90,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 1.8,
+        "average": 0.9,
+        "per90": 1.07,
+        "bestXI": 1.8
+      },
+      "playerCount": 2
+    },
+    {
+      "club": "Bologna",
+      "league": "ita.1",
+      "leagueName": "Serie A",
+      "players": [
+        {
+          "id": "202429",
+          "name": "Lewis Ferguson",
+          "position": "M",
+          "nation": "Scotland",
+          "minutes": 90,
+          "rating": 1.4,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Clean sheets",
+              "points": 1.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "152600",
+          "name": "Remo Freuler",
+          "position": "M",
+          "nation": "Switzerland",
+          "minutes": 89,
+          "rating": 0.3,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 1.7,
+        "average": 0.85,
+        "per90": 0.85,
+        "bestXI": 1.7
+      },
+      "playerCount": 2
+    },
+    {
+      "club": "Lille",
+      "league": "fra.1",
+      "leagueName": "Ligue 1",
+      "players": [
+        {
+          "id": "166473",
+          "name": "Thomas Meunier",
+          "position": "D",
+          "nation": "Belgium",
+          "minutes": 90,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 0.5
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.5
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "359651",
+          "name": "Matias Fernandez-Pardo",
+          "position": "F",
+          "nation": "Belgium",
+          "minutes": 4,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "373927",
+          "name": "Ayyoub Bouaddi",
+          "position": "M",
+          "nation": "Morocco",
+          "minutes": 90,
+          "rating": 0.4,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "318577",
+          "name": "Nathan Ngoy",
+          "position": "D",
+          "nation": "Belgium",
+          "minutes": 90,
+          "rating": 0.3,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 1.7,
+        "average": 0.42,
+        "per90": 0.56,
+        "bestXI": 1.7
+      },
+      "playerCount": 4
+    },
+    {
+      "club": "Torino",
+      "league": "ita.1",
+      "leagueName": "Serie A",
+      "players": [
+        {
+          "id": "213725",
+          "name": "Ch\u00e9 Adams",
+          "position": "F",
+          "nation": "Scotland",
+          "minutes": 75,
+          "rating": 1.7,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 1.0
+            },
+            {
+              "label": "Shots",
+              "points": 0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 1.7,
+        "average": 1.7,
+        "per90": 2.04,
+        "bestXI": 1.7
+      },
+      "playerCount": 1
+    },
+    {
+      "club": "AFC Bournemouth",
+      "league": "eng.1",
+      "leagueName": "Premier League",
+      "players": [
+        {
+          "id": "93435",
+          "name": "Ryan Christie",
+          "position": "M",
+          "nation": "Scotland",
+          "minutes": 15,
+          "rating": 1.4,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Clean sheets",
+              "points": 1.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "332948",
+          "name": "Ben Gannon-Doak",
+          "position": "F",
+          "nation": "Scotland",
+          "minutes": 75,
+          "rating": 0.9,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.4
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "222776",
+          "name": "Tyler Adams",
+          "position": "M",
+          "nation": "United States",
+          "minutes": 90,
+          "rating": -0.7,
+          "breakdown": [
+            {
+              "label": "Yellow cards",
+              "points": -1.0
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 1.6,
+        "average": 0.53,
+        "per90": 0.8,
+        "bestXI": 1.6
+      },
+      "playerCount": 3
+    },
+    {
+      "club": "Marseille",
+      "league": "fra.1",
+      "leagueName": "Ligue 1",
+      "players": [
+        {
+          "id": "266027",
+          "name": "Timothy Weah",
+          "position": "F",
+          "nation": "United States",
+          "minutes": 18,
+          "rating": 0.9,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.4
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "282230",
+          "name": "Quinten Timber",
+          "position": "M",
+          "nation": "Netherlands",
+          "minutes": 20,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 1.4,
+        "average": 0.7,
+        "per90": 3.32,
+        "bestXI": 1.4
+      },
+      "playerCount": 2
+    },
+    {
+      "club": "Sevilla",
+      "league": "esp.1",
+      "leagueName": "La Liga",
+      "players": [
+        {
+          "id": "259513",
+          "name": "Rub\u00e9n Vargas",
+          "position": "M",
+          "nation": "Switzerland",
+          "minutes": 79,
+          "rating": 1.4,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 0.7
+            },
+            {
+              "label": "Shots",
+              "points": 0.3
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 1.4,
+        "average": 1.4,
+        "per90": 1.59,
+        "bestXI": 1.4
+      },
+      "playerCount": 1
+    },
+    {
+      "club": "Atl\u00e9tico Madrid",
+      "league": "esp.1",
+      "leagueName": "La Liga",
+      "players": [
+        {
+          "id": "206474",
+          "name": "Marcos Llorente",
+          "position": "M",
+          "nation": "Spain",
+          "minutes": 90,
+          "rating": 1.4,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Clean sheets",
+              "points": 1.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 1.4,
+        "average": 1.4,
+        "per90": 1.4,
+        "bestXI": 1.4
+      },
+      "playerCount": 1
+    },
+    {
+      "club": "FC Augsburg",
+      "league": "ger.1",
+      "leagueName": "Bundesliga",
+      "players": [
+        {
+          "id": "308908",
+          "name": "Fabian Rieder",
+          "position": "M",
+          "nation": "Switzerland",
+          "minutes": 25,
+          "rating": 0.6,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "317473",
+          "name": "Isma\u00ebl Gharbi",
+          "position": "F",
+          "nation": "Tunisia",
+          "minutes": 7,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 1.1,
+        "average": 0.55,
+        "per90": 3.09,
+        "bestXI": 1.1
+      },
+      "playerCount": 2
+    },
+    {
+      "club": "Werder Bremen",
+      "league": "ger.1",
+      "leagueName": "Bundesliga",
+      "players": [
+        {
+          "id": "265965",
+          "name": "Yukinari Sugawara",
+          "position": "D",
+          "nation": "Japan",
+          "minutes": 15,
+          "rating": 1.0,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 0.5
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 1.0,
+        "average": 1.0,
+        "per90": 6.0,
+        "bestXI": 1.0
+      },
+      "playerCount": 1
+    },
+    {
+      "club": "Sassuolo",
+      "league": "ita.1",
+      "leagueName": "Serie A",
+      "players": [
+        {
+          "id": "325001",
+          "name": "Isma\u00ebl Kon\u00e9",
+          "position": "M",
+          "nation": "Canada",
+          "minutes": 90,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.1
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        },
+        {
+          "id": "318390",
+          "name": "Tarik Muharemovic",
+          "position": "D",
+          "nation": "Bosnia-Herzegovina",
+          "minutes": 90,
+          "rating": 0.4,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 0.9,
+        "average": 0.45,
+        "per90": 0.45,
+        "bestXI": 0.9
+      },
+      "playerCount": 2
+    },
+    {
+      "club": "AJ Auxerre",
+      "league": "fra.1",
+      "leagueName": "Ligue 1",
+      "players": [
+        {
+          "id": "304212",
+          "name": "Josu\u00e9 Casimir",
+          "position": "F",
+          "nation": "Haiti",
+          "minutes": 29,
+          "rating": 0.7,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 0.7,
+        "average": 0.7,
+        "per90": 2.17,
+        "bestXI": 0.7
+      },
+      "playerCount": 1
+    },
+    {
+      "club": "SC Freiburg",
+      "league": "ger.1",
+      "leagueName": "Bundesliga",
+      "players": [
+        {
+          "id": "386992",
+          "name": "Johan Manzambi",
+          "position": "M",
+          "nation": "Switzerland",
+          "minutes": 25,
+          "rating": 0.6,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.2
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 0.6,
+        "average": 0.6,
+        "per90": 2.16,
+        "bestXI": 0.6
+      },
+      "playerCount": 1
+    },
+    {
+      "club": "Lyon",
+      "league": "fra.1",
+      "leagueName": "Ligue 1",
+      "players": [
+        {
+          "id": "305545",
+          "name": "Pavel Sulc",
+          "position": "M",
+          "nation": "Czechia",
+          "minutes": 64,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.1
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 0.5,
+        "average": 0.5,
+        "per90": 0.7,
+        "bestXI": 0.5
+      },
+      "playerCount": 1
+    },
+    {
+      "club": "Girona",
+      "league": "esp.1",
+      "leagueName": "La Liga",
+      "players": [
+        {
+          "id": "291552",
+          "name": "Azzedine Ounahi",
+          "position": "M",
+          "nation": "Morocco",
+          "minutes": 65,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 0.5,
+        "average": 0.5,
+        "per90": 0.69,
+        "bestXI": 0.5
+      },
+      "playerCount": 1
+    },
+    {
+      "club": "Lorient",
+      "league": "fra.1",
+      "leagueName": "Ligue 1",
+      "players": [
+        {
+          "id": "265099",
+          "name": "Montassar Talbi",
+          "position": "D",
+          "nation": "Tunisia",
+          "minutes": 90,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 0.5,
+        "average": 0.5,
+        "per90": 0.5,
+        "bestXI": 0.5
+      },
+      "playerCount": 1
+    },
+    {
+      "club": "Udinese",
+      "league": "ita.1",
+      "leagueName": "Serie A",
+      "players": [
+        {
+          "id": "237055",
+          "name": "Jesper Karlstr\u00f6m",
+          "position": "M",
+          "nation": "Sweden",
+          "minutes": 84,
+          "rating": 0.4,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 0.4,
+        "average": 0.4,
+        "per90": 0.43,
+        "bestXI": 0.4
+      },
+      "playerCount": 1
+    },
+    {
+      "club": "Leeds United",
+      "league": "eng.1",
+      "leagueName": "Premier League",
+      "players": [
+        {
+          "id": "250166",
+          "name": "Gabriel Gudmundsson",
+          "position": "D",
+          "nation": "Sweden",
+          "minutes": 65,
+          "rating": 0.3,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 0.3,
+        "average": 0.3,
+        "per90": 0.42,
+        "bestXI": 0.3
+      },
+      "playerCount": 1
+    },
+    {
+      "club": "Lens",
+      "league": "fra.1",
+      "leagueName": "Ligue 1",
+      "players": [
+        {
+          "id": "286011",
+          "name": "Saud Abdulhamid",
+          "position": "D",
+          "nation": "Saudi Arabia",
+          "minutes": 90,
+          "rating": 0.3,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 0.3,
+        "average": 0.3,
+        "per90": 0.3,
+        "bestXI": 0.3
+      },
+      "playerCount": 1
+    },
+    {
+      "club": "Angers",
+      "league": "fra.1",
+      "leagueName": "Ligue 1",
+      "players": [
+        {
+          "id": "218703",
+          "name": "Carlens Arcus",
+          "position": "D",
+          "nation": "Haiti",
+          "minutes": 90,
+          "rating": 0.2,
+          "breakdown": [
+            {
+              "label": "Fouls committed",
+              "points": -0.3
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 0.2,
+        "average": 0.2,
+        "per90": 0.2,
+        "bestXI": 0.2
+      },
+      "playerCount": 1
+    },
+    {
+      "club": "1. FC Union Berlin",
+      "league": "ger.1",
+      "leagueName": "Bundesliga",
+      "players": [
+        {
+          "id": "159152",
+          "name": "Rani Khedira",
+          "position": "M",
+          "nation": "Tunisia",
+          "minutes": 83,
+          "rating": -0.5,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.1
+            },
+            {
+              "label": "Yellow cards",
+              "points": -1.0
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": -0.5,
+        "average": -0.5,
+        "per90": -0.54,
+        "bestXI": -0.5
+      },
+      "playerCount": 1
+    },
+    {
+      "club": "Hamburg SV",
+      "league": "ger.1",
+      "leagueName": "Bundesliga",
+      "players": [
+        {
+          "id": "243626",
+          "name": "Miro Muheim",
+          "position": "D",
+          "nation": "Switzerland",
+          "minutes": 1,
+          "rating": -3.5,
+          "breakdown": [
+            {
+              "label": "Own goals",
+              "points": -4.0
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": -3.5,
+        "average": -3.5,
+        "per90": -315.0,
+        "bestXI": -3.5
+      },
+      "playerCount": 1
+    }
+  ]
+}
