@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>World Cup Club Bragging Board</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>World Cup Club Bragging Board</h1>
+    <p class="sub">Big-five clubs ranked by their players' FIFA World Cup 2026 performance.</p>
+  </header>
+
+  <nav class="controls">
+    <div id="leagues" class="tabs"></div>
+    <div id="views" class="tabs"></div>
+  </nav>
+
+  <main>
+    <table id="board">
+      <thead>
+        <tr><th>#</th><th>Club</th><th>League</th><th>Players</th><th id="score-head">Score</th></tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p id="meta"></p>
+    <p class="disclaimer">Data: unofficial ESPN endpoints. Players attributed to their 2025–26 club.
+      Ratings are derived from match stats; see each club's breakdown.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

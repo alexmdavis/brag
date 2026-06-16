@@ -1,0 +1,26 @@
+:root { --bg:#0f1226; --card:#1a1f3c; --ink:#eef; --muted:#9aa; --accent:#34d399; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: system-ui, sans-serif; background:var(--bg); color:var(--ink); }
+header { padding:24px 16px 8px; text-align:center; }
+h1 { margin:0; font-size:1.6rem; }
+.sub { color:var(--muted); margin:4px 0 0; }
+.controls { display:flex; flex-wrap:wrap; gap:16px; justify-content:center; padding:16px; }
+.tabs { display:flex; gap:6px; flex-wrap:wrap; }
+.tabs button { background:var(--card); color:var(--ink); border:1px solid #333a66;
+  padding:6px 12px; border-radius:999px; cursor:pointer; font-size:.85rem; }
+.tabs button.active { background:var(--accent); color:#06241a; border-color:var(--accent); font-weight:600; }
+main { max-width:820px; margin:0 auto; padding:0 12px 32px; }
+table { width:100%; border-collapse:collapse; background:var(--card); border-radius:12px; overflow:hidden; }
+th, td { padding:10px 12px; text-align:left; border-bottom:1px solid #2a3056; }
+th { font-size:.75rem; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); }
+td.score, th#score-head { text-align:right; font-variant-numeric:tabular-nums; }
+tr.club-row { cursor:pointer; }
+tr.club-row:hover { background:#222a52; }
+tr.detail td { background:#11152e; padding:0; }
+.players { margin:0; padding:8px 16px; }
+.player { display:flex; justify-content:space-between; gap:8px; padding:4px 0;
+  border-bottom:1px dashed #2a3056; font-size:.9rem; }
+.player .meta { color:var(--muted); font-size:.8rem; }
+.breakdown { color:var(--muted); font-size:.78rem; margin-left:8px; }
+footer { text-align:center; color:var(--muted); padding:16px; font-size:.8rem; }
+.disclaimer { font-size:.72rem; }
