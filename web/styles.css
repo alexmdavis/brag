@@ -64,3 +64,18 @@ table.weights td.num, table.weights th:not(:first-child) { text-align:right; fon
 .link-btn.active { background:var(--accent); color:#06241a; border-color:var(--accent); font-weight:600; }
 th.num { text-align:right; }
 .breakdown-row { color:var(--muted); font-size:.82rem; padding:6px 2px; }
+
+/* promotion/relegation: subtle team-row tint + small pip annotation (team & player level) */
+.pip { display:inline-block; width:7px; height:7px; border-radius:50%; margin-left:6px;
+  vertical-align:middle; flex:0 0 auto; }
+.pip.promoted { background:#34d399; }
+.pip.relegated { background:#f87171; }
+tr.club-row.promoted > td { background:rgba(52,211,153,0.07); }
+tr.club-row.relegated > td { background:rgba(248,113,113,0.08); }
+tr.club-row.promoted:hover > td, tr.club-row.relegated:hover > td { background:#222a52; }
+.legend { max-width:820px; margin:0 auto 6px; padding:2px 12px; color:var(--muted);
+  font-size:.76rem; display:flex; gap:18px; flex-wrap:wrap; }
+.legend .sw { display:inline-block; width:9px; height:9px; border-radius:50%; margin-right:6px;
+  vertical-align:middle; }
+.legend .sw.promoted { background:#34d399; }
+.legend .sw.relegated { background:#f87171; }

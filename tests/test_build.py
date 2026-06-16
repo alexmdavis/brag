@@ -6,6 +6,7 @@ RECORDS = {
     "A1": {"id": "A1", "name": "Saka", "nation": "England", "nationFlag": "flag-eng",
            "headshot": "shot-A1", "club": "Arsenal", "league": "eng.1",
            "leagueName": "Premier League", "position": "M", "clubLogo": "crest-ars",
+           "promoted": True, "relegated": False,
            "stats": {"totalGoals": 2.0, "goalAssists": 1.0, "appearances": 2.0},
            "minutes": 180, "matches": 2, "cleanSheets": 0},
     "A2": {"id": "A2", "name": "Saliba", "nation": "France", "nationFlag": "flag-fra",
@@ -21,6 +22,7 @@ def test_assemble_threads_images_and_methodology():
     club = s["clubs"][0]
     assert club["clubLogo"] == "crest-ars"
     assert club["leagueLogo"].endswith("/23.png")          # eng.1 league logo
+    assert club["promoted"] is True and club["relegated"] is False
     player = club["players"][0]
     assert player["nationFlag"] in {"flag-eng", "flag-fra"}
     assert player["headshot"] in {"shot-A1", "shot-A2"}

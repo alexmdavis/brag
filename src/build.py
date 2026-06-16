@@ -28,6 +28,8 @@ def assemble_standings(records, generated_at):
             "leagueName": rec["leagueName"],
             "clubLogo": rec.get("clubLogo"),
             "leagueLogo": config.LEAGUE_LOGOS.get(rec["league"]),
+            "promoted": rec.get("promoted", False),
+            "relegated": rec.get("relegated", False),
             "players": [],
         })
         club["players"].append(player)

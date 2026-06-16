@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-16T15:58:59Z",
+  "generatedAt": "2026-06-16T17:11:07Z",
   "season": 2025,
   "tournament": "fifa.world",
   "coverage": {
-    "playersMapped": 200,
-    "clubs": 70
+    "playersMapped": 205,
+    "clubs": 75
   },
   "methodology": {
     "positionGroups": {
@@ -109,6 +109,8 @@
       "leagueName": "Premier League",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "235662",
@@ -325,6 +327,8 @@
       "leagueName": "Premier League",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "231182",
@@ -489,6 +493,8 @@
       "leagueName": "Premier League",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "134190",
@@ -601,6 +607,8 @@
       "leagueName": "Bundesliga",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "281122",
@@ -749,6 +757,8 @@
       "leagueName": "La Liga",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "252107",
@@ -913,6 +923,8 @@
       "leagueName": "Bundesliga",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "190161",
@@ -1109,6 +1121,8 @@
       "leagueName": "La Liga",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "368992",
@@ -1317,6 +1331,8 @@
       "leagueName": "Bundesliga",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "120829",
@@ -1425,6 +1441,8 @@
       "leagueName": "Bundesliga",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "273300",
@@ -1525,6 +1543,8 @@
       "leagueName": "Ligue 1",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "282643",
@@ -1601,6 +1621,8 @@
       "leagueName": "Premier League",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "304242",
@@ -1761,6 +1783,8 @@
       "leagueName": "La Liga",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "222375",
@@ -1841,6 +1865,8 @@
       "leagueName": "Serie A",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "284822",
@@ -1937,6 +1963,8 @@
       "leagueName": "Bundesliga",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/270.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
+      "promoted": false,
+      "relegated": true,
       "players": [
         {
           "id": "260643",
@@ -2033,6 +2061,8 @@
       "leagueName": "Ligue 1",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "274197",
@@ -2161,6 +2191,8 @@
       "leagueName": "Premier League",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "162843",
@@ -2273,6 +2305,8 @@
       "leagueName": "Premier League",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "291630",
@@ -2401,6 +2435,8 @@
       "leagueName": "Ligue 1",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "20975",
@@ -2485,6 +2521,8 @@
       "leagueName": "La Liga",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "248276",
@@ -2585,6 +2623,8 @@
       "leagueName": "Premier League",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "167060",
@@ -2689,6 +2729,8 @@
       "leagueName": "Premier League",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "219362",
@@ -2769,6 +2811,8 @@
       "leagueName": "Premier League",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
+      "promoted": false,
+      "relegated": true,
       "players": [
         {
           "id": "151714",
@@ -2857,6 +2901,8 @@
       "leagueName": "Serie A",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "332081",
@@ -2921,6 +2967,8 @@
       "leagueName": "Bundesliga",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "191209",
@@ -3021,6 +3069,8 @@
       "leagueName": "Bundesliga",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "301416",
@@ -3085,6 +3135,8 @@
       "leagueName": "Bundesliga",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/138.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "220120",
@@ -3145,6 +3197,8 @@
       "leagueName": "Bundesliga",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "290230",
@@ -3213,6 +3267,8 @@
       "leagueName": "Ligue 1",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "202099",
@@ -3257,6 +3313,8 @@
       "leagueName": "La Liga",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "256587",
@@ -3321,6 +3379,8 @@
       "leagueName": "Premier League",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/379.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
+      "promoted": false,
+      "relegated": true,
       "players": [
         {
           "id": "300007",
@@ -3401,6 +3461,8 @@
       "leagueName": "Premier League",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/371.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
+      "promoted": false,
+      "relegated": true,
       "players": [
         {
           "id": "284792",
@@ -3473,6 +3535,8 @@
       "leagueName": "Premier League",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "283940",
@@ -3541,6 +3605,8 @@
       "leagueName": "Premier League",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "259910",
@@ -3609,6 +3675,8 @@
       "leagueName": "Serie A",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "225607",
@@ -3669,6 +3737,8 @@
       "leagueName": "Premier League",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "218522",
@@ -3729,6 +3799,8 @@
       "leagueName": "Serie A",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "273499",
@@ -3829,6 +3901,8 @@
       "leagueName": "Premier League",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "231828",
@@ -3945,6 +4019,8 @@
       "leagueName": "Serie A",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "255850",
@@ -4049,6 +4125,8 @@
       "leagueName": "Serie A",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "259975",
@@ -4085,6 +4163,8 @@
       "leagueName": "La Liga",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/92.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
+      "promoted": false,
+      "relegated": true,
       "players": [
         {
           "id": "295847",
@@ -4125,6 +4205,8 @@
       "leagueName": "Premier League",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "271191",
@@ -4165,6 +4247,8 @@
       "leagueName": "Serie A",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "170785",
@@ -4261,6 +4345,8 @@
       "leagueName": "Premier League",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "356379",
@@ -4353,6 +4439,8 @@
       "leagueName": "Serie A",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "259481",
@@ -4441,6 +4529,8 @@
       "leagueName": "Premier League",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "265915",
@@ -4565,6 +4655,8 @@
       "leagueName": "Ligue 1",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "311118",
@@ -4625,6 +4717,8 @@
       "leagueName": "Bundesliga",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "249548",
@@ -4681,6 +4775,8 @@
       "leagueName": "La Liga",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "283827",
@@ -4737,6 +4833,8 @@
       "leagueName": "Bundesliga",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "134103",
@@ -4797,6 +4895,8 @@
       "leagueName": "Serie A",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "202429",
@@ -4857,6 +4957,8 @@
       "leagueName": "Ligue 1",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "166473",
@@ -4953,6 +5055,8 @@
       "leagueName": "Serie A",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "213725",
@@ -4993,6 +5097,8 @@
       "leagueName": "Premier League",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "93435",
@@ -5077,6 +5183,8 @@
       "leagueName": "Ligue 1",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "266027",
@@ -5129,6 +5237,8 @@
       "leagueName": "La Liga",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "259513",
@@ -5173,6 +5283,8 @@
       "leagueName": "La Liga",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "206474",
@@ -5208,11 +5320,55 @@
       "playerCount": 1
     },
     {
+      "club": "Pisa",
+      "league": "ita.1",
+      "leagueName": "Serie A",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3956.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
+      "promoted": false,
+      "relegated": true,
+      "players": [
+        {
+          "id": "245623",
+          "name": "Michel Aebischer",
+          "position": "M",
+          "nation": "Switzerland",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/245623.png",
+          "minutes": 65,
+          "rating": 1.3,
+          "breakdown": [
+            {
+              "label": "Shots on target",
+              "points": 0.7
+            },
+            {
+              "label": "Shots",
+              "points": 0.1
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 1.3,
+        "average": 1.3,
+        "per90": 1.8,
+        "bestXI": 1.3
+      },
+      "playerCount": 1
+    },
+    {
       "club": "FC Augsburg",
       "league": "ger.1",
       "leagueName": "Bundesliga",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "308908",
@@ -5260,11 +5416,51 @@
       "playerCount": 2
     },
     {
+      "club": "Venezia",
+      "league": "ita.1",
+      "leagueName": "Serie A",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
+      "promoted": true,
+      "relegated": false,
+      "players": [
+        {
+          "id": "265926",
+          "name": "John Yeboah",
+          "position": "F",
+          "nation": "Ecuador",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/265926.png",
+          "minutes": 62,
+          "rating": 1.1,
+          "breakdown": [
+            {
+              "label": "Shots",
+              "points": 0.6
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 1.1,
+        "average": 1.1,
+        "per90": 1.6,
+        "bestXI": 1.1
+      },
+      "playerCount": 1
+    },
+    {
       "club": "Werder Bremen",
       "league": "ger.1",
       "leagueName": "Bundesliga",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "265965",
@@ -5301,6 +5497,8 @@
       "leagueName": "Serie A",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "325001",
@@ -5361,6 +5559,8 @@
       "leagueName": "Ligue 1",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "304212",
@@ -5397,6 +5597,8 @@
       "leagueName": "Bundesliga",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "386992",
@@ -5437,6 +5639,8 @@
       "leagueName": "Ligue 1",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "305545",
@@ -5472,11 +5676,81 @@
       "playerCount": 1
     },
     {
+      "club": "Hull City",
+      "league": "eng.1",
+      "leagueName": "Premier League",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
+      "promoted": true,
+      "relegated": false,
+      "players": [
+        {
+          "id": "271879",
+          "name": "Liam Millar",
+          "position": "F",
+          "nation": "Canada",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/271879.png",
+          "minutes": 61,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 0.5,
+        "average": 0.5,
+        "per90": 0.74,
+        "bestXI": 0.5
+      },
+      "playerCount": 1
+    },
+    {
+      "club": "Cremonese",
+      "league": "ita.1",
+      "leagueName": "Serie A",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4050.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
+      "promoted": false,
+      "relegated": true,
+      "players": [
+        {
+          "id": "192162",
+          "name": "Antonio Sanabria",
+          "position": "F",
+          "nation": "Paraguay",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/192162.png",
+          "minutes": 62,
+          "rating": 0.5,
+          "breakdown": [
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": 0.5,
+        "average": 0.5,
+        "per90": 0.73,
+        "bestXI": 0.5
+      },
+      "playerCount": 1
+    },
+    {
       "club": "Girona",
       "league": "esp.1",
       "leagueName": "La Liga",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
+      "promoted": false,
+      "relegated": true,
       "players": [
         {
           "id": "291552",
@@ -5509,6 +5783,8 @@
       "leagueName": "Ligue 1",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "265099",
@@ -5541,6 +5817,8 @@
       "leagueName": "Serie A",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "237055",
@@ -5577,6 +5855,8 @@
       "leagueName": "Premier League",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "250166",
@@ -5613,6 +5893,8 @@
       "leagueName": "Ligue 1",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "286011",
@@ -5649,6 +5931,8 @@
       "leagueName": "Ligue 1",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "218703",
@@ -5685,6 +5969,8 @@
       "leagueName": "Bundesliga",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "159152",
@@ -5724,11 +6010,55 @@
       "playerCount": 1
     },
     {
+      "club": "Schalke 04",
+      "league": "ger.1",
+      "leagueName": "Bundesliga",
+      "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/133.png",
+      "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
+      "promoted": true,
+      "relegated": false,
+      "players": [
+        {
+          "id": "220538",
+          "name": "Nikola Katic",
+          "position": "D",
+          "nation": "Bosnia-Herzegovina",
+          "nationFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
+          "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/220538.png",
+          "minutes": 90,
+          "rating": -0.7,
+          "breakdown": [
+            {
+              "label": "Yellow cards",
+              "points": -1.0
+            },
+            {
+              "label": "Fouls committed",
+              "points": -0.2
+            },
+            {
+              "label": "Appearances",
+              "points": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "total": -0.7,
+        "average": -0.7,
+        "per90": -0.7,
+        "bestXI": -0.7
+      },
+      "playerCount": 1
+    },
+    {
       "club": "Hamburg SV",
       "league": "ger.1",
       "leagueName": "Bundesliga",
       "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
       "leagueLogo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
+      "promoted": false,
+      "relegated": false,
       "players": [
         {
           "id": "243626",

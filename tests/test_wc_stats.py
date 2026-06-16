@@ -33,9 +33,9 @@ SUMMARY = {
 
 MAPPING = {
     "A1": {"club": "Arsenal", "league": "eng.1", "leagueName": "Premier League",
-           "position": "M", "clubLogo": "crest-ars"},
+           "position": "M", "clubLogo": "crest-ars", "promoted": True, "relegated": False},
     "A2": {"club": "Chelsea", "league": "eng.1", "leagueName": "Premier League",
-           "position": "F", "clubLogo": "crest-che"},
+           "position": "F", "clubLogo": "crest-che", "promoted": False, "relegated": True},
 }
 
 
@@ -57,6 +57,10 @@ def test_process_captures_images():
 
     assert acc["A2"]["nationFlag"] == "flag-eng"
     assert acc["A2"]["headshot"].endswith("/A2.png")
+
+    # promotion/relegation status threads from the mapping into the record
+    assert a1["promoted"] is True and a1["relegated"] is False
+    assert acc["A2"]["relegated"] is True and acc["A2"]["promoted"] is False
 
 
 def test_process_is_additive_across_matches():

@@ -1,56 +1,81 @@
 from src import config
-from src.mapping import build_mapping, teams_url, roster_url
+from src.mapping import build_mapping, teams_url, roster_url, standings_url
 
 
 def test_url_builders():
     assert teams_url("ita.1") == f"{config.BASE}/ita.1/teams"
     assert roster_url("ita.1", "103") == f"{config.BASE}/ita.1/teams/103/roster?season={config.SEASON}"
+    assert standings_url("ita.1", 2025) == f"{config.STANDINGS_BASE}/ita.1/standings?season=2025"
 
 
-def fake_fetch_factory():
-    teams_payload = {"sports": [{"leagues": [{"teams": [
-        {"team": {"id": "103", "displayName": "AC Milan"}},
-    ]}]}]}
-    roster_payload = {
-        "team": {"displayName": "AC Milan",
-                 "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png"},
-        "athletes": [
-            {"id": "225607", "displayName": "Christian Pulisic", "position": {"abbreviation": "M"}},
-            {"id": "236210", "displayName": "Fikayo Tomori", "position": {"abbreviation": "D"}},
-        ]}
+def _standings(entries):
+    """entries: list of (id, name, relegated_note_bool)."""
+    return {"children": [{"standings": {"entries": [
+        {"team": {"id": tid, "displayName": name},
+         "note": ({"description": "Relegation"} if rel else None)}
+        for tid, name, rel in entries
+    ]}}]}
+
+
+def _roster(name, athletes):
+    return {"team": {"displayName": name, "logo": f"crest-{name}"},
+            "athletes": [{"id": aid, "displayName": aid, "position": {"abbreviation": "M"}}
+                         for aid in athletes]}
+
+
+PROMOTED = {"eng.1": ["P1"]}
+TIER2 = {"eng.1": "eng.2"}
+
+
+def test_relegated_via_next_season_diff_and_promoted_from_second_tier():
+    cur = _standings([("1", "Arsenal", False), ("2", "Wolves", False)])
+    nxt = _standings([("1", "Arsenal", False)])              # Wolves gone -> relegated
 
     def fetch(url, **kwargs):
-        if url.endswith("/teams"):
-            return teams_payload
-        if "/roster" in url:
-            return roster_payload
+        if "standings?season=2025" in url: return cur
+        if "standings?season=2026" in url: return nxt
+        if "/eng.1/teams/1/roster" in url: return _roster("Arsenal", ["A1"])
+        if "/eng.1/teams/2/roster" in url: return _roster("Wolves", ["A2"])
+        if "/eng.2/teams/P1/roster" in url: return _roster("Coventry City", ["A3"])
         raise AssertionError(f"unexpected url {url}")
-    return fetch
+
+    m = build_mapping(fetch=fetch, leagues={"eng.1": "Premier League"},
+                      promoted_map=PROMOTED, second_tier=TIER2)
+    assert m["A1"]["promoted"] is False and m["A1"]["relegated"] is False
+    assert m["A2"]["relegated"] is True and m["A2"]["promoted"] is False
+    assert m["A3"]["promoted"] is True and m["A3"]["relegated"] is False
+    assert m["A3"]["club"] == "Coventry City"
 
 
-def test_build_mapping_indexes_by_athlete_id():
-    m = build_mapping(fetch=fake_fetch_factory(), leagues={"ita.1": "Serie A"})
-    assert m["225607"] == {
-        "club": "AC Milan", "league": "ita.1",
-        "leagueName": "Serie A", "position": "M",
-        "clubLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
-    }
-    assert m["236210"]["position"] == "D"
-    assert m["236210"]["clubLogo"].endswith("/103.png")
+def test_relegated_falls_back_to_note_when_no_next_season():
+    cur = _standings([("1", "Arsenal", False), ("2", "Wolves", True)])  # note marks relegation
 
-
-def test_build_mapping_skips_failed_team():
     def fetch(url, **kwargs):
-        if url.endswith("/teams"):
-            return {"sports": [{"leagues": [{"teams": [
-                {"team": {"id": "1", "displayName": "Good"}},
-                {"team": {"id": "2", "displayName": "Bad"}},
-            ]}]}]}
-        if "/teams/2/roster" in url:
-            raise OSError("boom")
-        return {"team": {"displayName": "Good", "logo": "x"}, "athletes": [
-            {"id": "11", "displayName": "A", "position": {"abbreviation": "F"}}]}
-    m = build_mapping(fetch=fetch, leagues={"eng.1": "Premier League"})
-    assert "11" in m
-    assert len(m) == 1
-    assert m["11"]["clubLogo"] == "x"
+        if "standings?season=2025" in url: return cur
+        if "standings?season=2026" in url: raise OSError("no upcoming season yet")
+        if "/eng.1/teams/1/roster" in url: return _roster("Arsenal", ["A1"])
+        if "/eng.1/teams/2/roster" in url: return _roster("Wolves", ["A2"])
+        if "/eng.2/teams/P1/roster" in url: return _roster("Coventry City", ["A3"])
+        raise AssertionError(f"unexpected url {url}")
+
+    m = build_mapping(fetch=fetch, leagues={"eng.1": "Premier League"},
+                      promoted_map=PROMOTED, second_tier=TIER2)
+    assert m["A2"]["relegated"] is True
+    assert m["A3"]["promoted"] is True
+
+
+def test_failed_club_roster_is_skipped():
+    cur = _standings([("1", "Arsenal", False), ("2", "Wolves", False)])
+    nxt = _standings([("1", "Arsenal", False), ("2", "Wolves", False)])
+
+    def fetch(url, **kwargs):
+        if "standings?season=2025" in url: return cur
+        if "standings?season=2026" in url: return nxt
+        if "/eng.1/teams/2/roster" in url: raise OSError("boom")
+        if "/eng.1/teams/1/roster" in url: return _roster("Arsenal", ["A1"])
+        if "/eng.2/teams/P1/roster" in url: return _roster("Coventry City", ["A3"])
+        raise AssertionError(f"unexpected url {url}")
+
+    m = build_mapping(fetch=fetch, leagues={"eng.1": "Premier League"},
+                      promoted_map=PROMOTED, second_tier=TIER2)
+    assert set(m) == {"A1", "A3"}        # failed Wolves roster skipped, no crash

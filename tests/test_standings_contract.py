@@ -3,6 +3,7 @@ from src.build import assemble_standings
 REC = {"A1": {"id": "A1", "name": "Saka", "nation": "England", "nationFlag": "flag-eng",
               "headshot": "shot-A1", "club": "Arsenal", "league": "eng.1",
               "leagueName": "Premier League", "position": "M", "clubLogo": "crest-ars",
+              "promoted": True, "relegated": False,
               "stats": {"totalGoals": 1.0, "appearances": 1.0}, "minutes": 90,
               "matches": 1, "cleanSheets": 0}}
 
@@ -12,7 +13,7 @@ def test_frontend_contract_keys_present():
     assert {"generatedAt", "season", "coverage", "clubs", "methodology"} <= set(s)
     club = s["clubs"][0]
     assert {"club", "league", "leagueName", "scores", "playerCount",
-            "players", "clubLogo", "leagueLogo"} <= set(club)
+            "players", "clubLogo", "leagueLogo", "promoted", "relegated"} <= set(club)
     assert {"total", "average", "per90", "bestXI"} == set(club["scores"])
     player = club["players"][0]
     assert {"name", "position", "nation", "minutes", "rating", "breakdown",

@@ -76,6 +76,20 @@ function breakdownText(p) {
     .join(", ");
 }
 
+// Row tint class + tooltip for promoted/relegated clubs (team-level).
+function statusInfo(o) {
+  if (o.promoted) return { cls: "promoted", title: "Promoted for 2026-27" };
+  if (o.relegated) return { cls: "relegated", title: "Relegated after 2025-26" };
+  return { cls: "", title: "" };
+}
+
+// Small colored dot annotation (used at both team and player level).
+function statusPip(o) {
+  if (o.promoted) return el("span", { className: "pip promoted", attrs: { title: "Promoted for 2026-27" } });
+  if (o.relegated) return el("span", { className: "pip relegated", attrs: { title: "Relegated after 2025-26" } });
+  return null;
+}
+
 async function load() {
   const res = await fetch("standings.json", { cache: "no-store" });
   DATA = await res.json();
@@ -136,6 +150,7 @@ function clubCellNode(club) {
   return el("td", { className: "club-cell", children: [
     logoImg(club.clubLogo, "crest", club.club),
     el("span", { text: club.club }),
+    statusPip(club),
   ]});
 }
 
@@ -189,13 +204,17 @@ function renderClubs() {
 
   const nodes = [];
   clubs.forEach((c, i) => {
-    const tr = el("tr", { className: "club-row", children: [
-      el("td", { text: String(i + 1) }),
-      clubCellNode(c),
-      leagueCellNode(c.league, c.leagueName, logos),
-      el("td", { text: String(c.playerCount) }),
-      el("td", { className: "score", text: c.scores[currentView].toFixed(1) }),
-    ]});
+    const si = statusInfo(c);
+    const tr = el("tr", {
+      className: ("club-row " + si.cls).trim(),
+      attrs: si.title ? { title: si.title } : undefined,
+      children: [
+        el("td", { text: String(i + 1) }),
+        clubCellNode(c),
+        leagueCellNode(c.league, c.leagueName, logos),
+        el("td", { text: String(c.playerCount) }),
+        el("td", { className: "score", text: c.scores[currentView].toFixed(1) }),
+      ]});
     const detail = detailRow(playersNode(c));
     tr.onclick = () => {
       detail.style.display = detail.style.display === "none" ? "" : "none";
@@ -238,6 +257,7 @@ function renderPlayers() {
   const all = [];
   DATA.clubs.forEach(c => c.players.forEach(p => all.push(Object.assign({}, p, {
     club: c.club, clubLogo: c.clubLogo, league: c.league, leagueName: c.leagueName,
+    promoted: c.promoted, relegated: c.relegated,
   }))));
   const players = all
     .filter(p => currentLeague === "all" || p.league === currentLeague)

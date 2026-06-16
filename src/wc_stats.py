@@ -40,6 +40,8 @@ def _new_record(pid, player, info, nation, nation_flag):
         "leagueName": info["leagueName"],
         "position": info["position"],
         "clubLogo": info.get("clubLogo"),
+        "promoted": info.get("promoted", False),
+        "relegated": info.get("relegated", False),
         "stats": {},
         "minutes": 0,
         "matches": 0,
