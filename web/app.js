@@ -147,10 +147,13 @@ function setHeader(cols) {
 }
 
 function clubCellNode(club) {
-  return el("td", { className: "club-cell", children: [
-    logoImg(club.clubLogo, "crest", club.club),
-    el("span", { text: club.club }),
-    statusPip(club),
+  // Flex lives on an inner div, never the <td> (a flexed cell breaks table layout).
+  return el("td", { children: [
+    el("div", { className: "club-cell", children: [
+      logoImg(club.clubLogo, "crest", club.club),
+      el("span", { text: club.club }),
+      statusPip(club),
+    ]}),
   ]});
 }
 
@@ -162,13 +165,15 @@ function leagueCellNode(league, leagueName, logos) {
 }
 
 function playerCellNode(p) {
-  return el("td", { className: "club-cell", children: [
-    avatar(p),
-    el("span", { children: [
-      el("span", { className: "pname", text: p.name }),
-      el("span", { className: "meta", children: [
-        logoImg(p.nationFlag, "flag", p.nation),
-        el("span", { text: `${p.position}, ${p.nation}` }),
+  return el("td", { children: [
+    el("div", { className: "club-cell", children: [
+      avatar(p),
+      el("span", { children: [
+        el("span", { className: "pname", text: p.name }),
+        el("span", { className: "meta", children: [
+          logoImg(p.nationFlag, "flag", p.nation),
+          el("span", { text: `${p.position}, ${p.nation}` }),
+        ]}),
       ]}),
     ]}),
   ]});
