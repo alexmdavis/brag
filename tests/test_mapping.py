@@ -64,6 +64,25 @@ def test_relegated_falls_back_to_note_when_no_next_season():
     assert m["A3"]["promoted"] is True
 
 
+def test_no_second_tier_means_no_relegation():
+    # MLS-like league: no promotion/relegation. Even when next-season membership
+    # differs, clubs must never be flagged relegated (the diff must not run).
+    cur = _standings([("1", "Columbus Crew", False), ("2", "LA Galaxy", False)])
+    nxt = _standings([("1", "Columbus Crew", False)])   # Galaxy "missing" — but MLS has no relegation
+
+    def fetch(url, **kwargs):
+        if "standings?season=2025" in url: return cur
+        if "standings?season=2026" in url: return nxt
+        if "/usa.1/teams/1/roster" in url: return _roster("Columbus Crew", ["A1"])
+        if "/usa.1/teams/2/roster" in url: return _roster("LA Galaxy", ["A2"])
+        raise AssertionError(f"unexpected url {url}")
+
+    m = build_mapping(fetch=fetch, leagues={"usa.1": "MLS"},
+                      promoted_map={}, second_tier={})
+    assert m["A1"]["relegated"] is False and m["A1"]["promoted"] is False
+    assert m["A2"]["relegated"] is False and m["A2"]["promoted"] is False
+
+
 def test_failed_club_roster_is_skipped():
     cur = _standings([("1", "Arsenal", False), ("2", "Wolves", False)])
     nxt = _standings([("1", "Arsenal", False), ("2", "Wolves", False)])

@@ -81,12 +81,16 @@ def build_mapping(fetch=fetch_json, leagues=None, season=None,
 
     mapping = {}
     for league, league_name in leagues.items():
+        tier2 = second_tier.get(league)
         # Top-flight clubs for the season the board covers (established + relegated).
         try:
             current = standings_entries(fetch(standings_url(league, season)))
         except Exception:
             current = []
-        relegated_ids = _relegated_ids(fetch, league, season, current) if current else set()
+        # Relegation only applies to leagues with a second tier (pro/rel). Leagues
+        # without one (e.g. MLS) never flag relegated, even if membership shifts.
+        relegated_ids = (_relegated_ids(fetch, league, season, current)
+                         if current and tier2 else set())
         for entry in current:
             team = entry.get("team", {})
             tid = team.get("id")
@@ -96,7 +100,6 @@ def build_mapping(fetch=fetch_json, leagues=None, season=None,
                       promoted=False, relegated=(tid in relegated_ids))
 
         # Clubs promoted into the upcoming season, mapped from their second-tier squads.
-        tier2 = second_tier.get(league)
         if tier2:
             for tid in promoted_map.get(league, []):
                 _add_club(mapping, fetch, roster_url(tier2, tid), {"id": tid},

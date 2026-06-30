@@ -11,6 +11,7 @@ LEAGUES = {
     "ita.1": "Serie A",
     "fra.1": "Ligue 1",
     "ger.1": "Bundesliga",
+    "usa.1": "MLS",
 }
 
 # Inclusive YYYYMMDD range to scan the WC scoreboard for event IDs.
@@ -24,12 +25,16 @@ LEAGUE_LOGOS = {
     "ita.1": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
     "fra.1": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
     "ger.1": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
+    "usa.1": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
 }
 
 # Player headshot URL template (partial coverage; frontend falls back to flag/initials).
 HEADSHOT_URL = "https://a.espncdn.com/i/headshots/soccer/players/full/{id}.png"
 
-# Second-tier league code per top flight (where promoted clubs' 2025-26 squads live).
+# Second-tier league code per top flight (where promoted clubs' 2025-26 squads
+# live). A league appears here only if it has promotion/relegation; its presence
+# is what enables the relegation diff in mapping.build_mapping. MLS (usa.1) has
+# no pro/rel, so it is intentionally omitted from this map and PROMOTED_2026.
 SECOND_TIER = {
     "eng.1": "eng.2", "esp.1": "esp.2", "ita.1": "ita.2",
     "fra.1": "fra.2", "ger.1": "ger.2",

@@ -1,7 +1,7 @@
 # World Cup Club Bragging Board
 
-Ranks Europe's big-five-league clubs by how their players perform at the FIFA
-World Cup 2026. Static site, rebuilt every ~15 minutes via GitHub Actions.
+Ranks clubs from Europe's big-five leagues plus MLS by how their players perform
+at the FIFA World Cup 2026. Static site, rebuilt every ~15 minutes via GitHub Actions.
 
 ## How it works
 1. `src/mapping.py` builds an athlete-id → club map from domestic rosters
